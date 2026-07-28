@@ -1,0 +1,328 @@
+One Project to Learn Almost Everything
+Domain: Stationery Store Management System
+
+Your goal is to build it step by step, not all at once.
+
+When finished, you'll have used almost every major OOP concept.
+
+Step 1 — Design the Classes
+
+Create these classes only.
+
+Person
+│
+├── Customer
+└── Employee
+
+Product
+│
+├── Notebook
+├── Pen
+└── Marker
+
+Supplier
+
+ShoppingCart
+
+Order
+
+StationeryStore
+
+Do not write methods yet.
+
+Step 2 — Constructors
+
+Design constructors with suitable attributes.
+
+Person
+person_id
+name
+phone
+Customer
+customer_id
+reward_points
+shopping_cart
+Employee
+employee_id
+department
+salary
+Product
+product_id
+name
+price
+stock
+Notebook
+pages
+Pen
+ink_color
+Marker
+marker_type
+Supplier
+supplier_id
+company_name
+products_supplied
+ShoppingCart
+cart_items
+Order
+order_id
+customer
+products
+total_amount
+status
+StationeryStore
+products
+customers
+employees
+suppliers
+orders
+Step 3 — Encapsulation
+
+Use all three access levels.
+
+Public
+product_id
+Protected
+_stock
+Private
+__cost_price
+
+Create
+
+get_cost_price()
+
+set_cost_price()
+
+Validation
+
+Cost price > 0
+Step 4 — Composition
+
+Use object references instead of IDs.
+
+Customer
+
+HAS A
+
+ShoppingCart
+ShoppingCart
+
+HAS MANY
+
+Product objects
+Order
+
+HAS A
+
+Customer
+Order
+
+HAS MANY
+
+Products
+Step 5 — Single Inheritance
+Person
+
+↓
+
+Customer
+Person
+
+↓
+
+Employee
+Step 6 — Multiple Inheritance
+
+Create
+
+Discountable
+Taxable
+
+Then
+
+PremiumNotebook
+
+↓
+
+Notebook
+
+↓
+
+Discountable
+
+↓
+
+Taxable
+Step 7 — Method Overriding
+
+Override
+
+display()
+
+for
+
+Notebook
+
+Pen
+
+Marker
+
+PremiumNotebook
+
+Each displays different information.
+
+Step 8 — Runtime Polymorphism
+
+Store all products together.
+
+products=[
+Notebook(),
+Pen(),
+Marker(),
+PremiumNotebook()
+]
+
+Write only
+
+for product in products:
+    product.display()
+
+No if, type(), or isinstance() checks.
+
+Step 9 — Class Variable
+
+Inside Product
+
+total_products = 0
+
+Automatically count every product object.
+
+Step 10 — Class Method
+show_total_products()
+
+Return total products.
+
+Step 11 — Static Method
+calculate_gst(price)
+
+Return price including GST.
+
+Step 12 — Search Template
+find_product()
+
+find_customer()
+
+find_order()
+Step 13 — Add Template
+add_product()
+
+add_customer()
+
+add_supplier()
+Step 14 — Remove Template
+remove_product()
+
+remove_customer()
+Step 15 — Filter Template
+low_stock_products()
+
+premium_customers()
+
+pending_orders()
+Step 16 — State Change
+increase_stock()
+
+decrease_stock()
+
+cancel_order()
+
+complete_order()
+Step 17 — Coordination (Most Important)
+
+Write
+
+purchase_product()
+
+Algorithm
+
+Find Customer
+
+↓
+
+Find Product
+
+↓
+
+Validate Stock
+
+↓
+
+Validate Customer
+
+↓
+
+Decrease Stock
+
+↓
+
+Add Product to Cart
+
+↓
+
+Create Order
+
+↓
+
+Update Reward Points
+
+↓
+
+Return Success
+
+This one method combines searching, validation, composition, object interaction, and state changes.
+
+Step 18 — Interview Challenge
+
+Without changing your classes, add:
+
+Custom Exceptions
+
+Examples:
+
+OutOfStockError
+
+InvalidPriceError
+
+CustomerNotFoundError
+
+OrderNotFoundError
+
+Raise them where appropriate instead of only printing messages.
+
+🚀 Rapid Phase Schedule
+
+Don't try to finish everything in one sitting.
+
+Session	Focus	Time
+1	Class design + constructors	30 min
+2	Encapsulation + composition	30 min
+3	Inheritance + overriding + polymorphism	30 min
+4	Search/Add/Remove/Filter	30 min
+5	Coordination + class/static methods + exceptions	45 min
+Why this project?
+
+This single project naturally exercises:
+
+✅ Classes and objects
+✅ Public, protected, and private encapsulation
+✅ Single inheritance
+✅ Multiple inheritance
+✅ Method overriding
+✅ Runtime polymorphism
+✅ Composition
+✅ Class variables
+✅ Class methods
+✅ Static methods
+✅ Search, add, remove, filter, validation, state-change, and coordination patterns
+✅ Custom exceptions
+
+Instead of memorizing isolated examples, you'll learn how these concepts work together in a realistic design—the same kind of thinking expected in many Python OOP interviews and practical assessments.
