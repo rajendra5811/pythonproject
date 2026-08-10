@@ -1,0 +1,111 @@
+===========================================
+        Python OOP Coding Question
+      Car Rental Management System
+===========================================
+
+Problem Statement
+-----------------
+A car rental company wants to build a simple software system to manage its rental cars.
+
+Design the system using Object-Oriented Programming (OOP) principles.
+
+The system should contain two classes: Car (Parent Class), RentalManagement (Child Class).
+
+RentalManagement should inherit from the Car class.
+
+
+===========================================
+Class 1: Car (Parent Class)
+===========================================
+
+Attributes
+----------
+Every Car object should store the following information:
+
+car_id, brand, model, rental_price_per_day, is_available (default = True).
+
+Method 1: display_car_info()
+----------------------------
+Display all the details of the car in a clean and readable format, including Car ID, Brand, Model, Rental Price per Day, and Availability Status.
+
+Example Output
+
+Car ID: 101
+Brand: Toyota
+Model: Camry
+Rental Price per Day: $70
+Available: Yes
+
+
+Method 2: update_rental_price(new_price)
+----------------------------------------
+Update the rental price of the car by accepting the new price as an argument, updating the object's rental price, and printing a confirmation message showing the new rental price.
+
+Example Output
+
+Rental price updated successfully.
+New Rental Price: $85/day
+
+
+===========================================
+Class 2: RentalManagement (Child Class)
+===========================================
+
+This class should inherit from the Car class.
+
+Method 3: rent_car(days)
+------------------------
+Rent the car for a given number of days by checking whether the car is available, calculating the total rental cost if available, marking the car as unavailable after renting, and displaying the rental details. If the car is already rented, print an appropriate message indicating that it is unavailable.
+
+Example Success Output
+
+Car rented successfully.
+
+Days Rented: 4
+Price Per Day: $70
+Total Cost: $280
+
+Example Failure Output
+
+Sorry! This car is currently unavailable.
+
+
+Method 4: return_car()
+----------------------
+Return the rented car by changing its availability status back to available and displaying a confirmation message.
+
+Example Output
+
+Car returned successfully.
+The car is now available for rent.
+
+
+===========================================
+Driver Code Expectations
+===========================================
+
+Create one object using the following sample values:
+
+Car ID: 101, Brand: Toyota, Model: Camry, Rental Price per Day: 70.
+
+Perform the following operations in order:
+
+Display the car information, update the rental price to $85, display the updated information, rent the car for 5 days, try renting the same car again without returning it, return the car, rent the car again for 2 days.
+
+
+===========================================
+Concepts Expected
+===========================================
+
+Your implementation should demonstrate class creation, constructors (__init__), inheritance, instance variables, object creation, calling methods through objects, updating object state, and basic business logic inside methods.
+
+
+===========================================
+Constraints
+===========================================
+
+Use only two classes, implement exactly four methods with two methods in the Car class and two methods in the RentalManagement class, use only one object, do not use lists or dictionaries, do not use file handling or databases, keep the implementation simple, clean, and readable.
+
+Goal
+----
+Focus on writing clean OOP code that correctly models the rental process using inheritance and object state changes.
