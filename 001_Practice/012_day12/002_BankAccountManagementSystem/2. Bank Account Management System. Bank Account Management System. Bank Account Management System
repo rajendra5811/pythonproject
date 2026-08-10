@@ -1,0 +1,43 @@
+2. Bank Account Management System
+Classes
+BankAccount — Parent Class
+AccountManagement — Child Class
+Attributes
+
+account_number, customer_name, balance, account_type
+
+Methods
+
+BankAccount
+
+display_account_info()
+update_account_type(new_type)
+
+AccountManagement
+3. deposit(amount)
+4. withdraw(amount)
+
+Business Logic
+
+deposit() increases the balance.
+
+withdraw() should:
+
+Check whether sufficient balance exists.
+Deduct money if possible.
+Otherwise display insufficient-balance message.
+Sample Object
+
+Account Number: 1001
+Customer: Raj
+Balance: $5000
+Account Type: Savings
+
+Operations:
+
+Display account.
+Change account type.
+Display updated account.
+Deposit $1500.
+Withdraw $2000.
+Try withdrawing $10000.
