@@ -52,5 +52,8 @@ new_person = person(name='Jane Smith', email='jane.smith@example.com', phone='09
 new_thing = Thing(name='Sample Thing', description='This is a sample thing.', contact=new_contact)
 session.add(new_contact)
 session.add(new_person)
+session.flush()
 session.add(new_thing)
+
 session.commit()
+print(new_person.thing)
