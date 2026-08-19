@@ -1,0 +1,16 @@
+[
+    {
+        "student_id": 1,
+        "name": "Bob",
+        "email": "bob@example.com",
+        "birth_date": "2005-04-12",
+        "department": "Science"
+    },
+    {
+        "student_id": 2,
+        "name": "Rahul",
+        "email": "rahul@example.com",
+        "birth_date": "2006-07-20",
+        "department": "Math"
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "course_id": 101,
+        "course_name": "Mathematics",
+        "credit_hours": 4,
+        "department": "Science"
+    },
+    {
+        "course_id": 102,
+        "course_name": "Physics",
+        "credit_hours": 4,
+        "department": "Science"
+    },
+    {
+        "course_id": 103,
+        "course_name": "English",
+        "credit_hours": 3,
+        "department": "Languages"
+    },
+    {
+        "course_id": 104,
+        "course_name": "Computer Science",
+        "credit_hours": 4,
+        "department": "Technology"
+    },
+    {
+        "course_id": 105,
+        "course_name": "History",
+        "credit_hours": 3,
+        "department": "Humanities"
+    }
+]
