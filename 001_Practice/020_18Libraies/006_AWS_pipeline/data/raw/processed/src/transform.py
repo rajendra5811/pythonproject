@@ -1,3 +1,4 @@
+from extract import load_json
 def transform_students(students):
     cleaned_students = []
 
@@ -44,3 +45,8 @@ def transform_students(students):
         cleaned_students.append(student)
 
     return cleaned_students
+students = load_json("data/students.json")
+
+cleaned_students = transform_students(students)
+
+print(cleaned_students)
