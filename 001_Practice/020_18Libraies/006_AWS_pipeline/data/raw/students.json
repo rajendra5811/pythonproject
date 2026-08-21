@@ -1,0 +1,33 @@
+[
+    {
+        "student_id": 101,
+        "name": " Raj ",
+        "age": 21,
+        "city": " Hyderabad ",
+        "marks": 85
+    },
+    {
+        "student_id": 102,
+        "name": " Priya ",
+        "age": 22,
+        "city": " Delhi ",
+        "marks": 91
+    },
+    {
+        "student_id": 103,
+        "name": " John ",
+        "age": 20,
+        "city": " Chennai ",
+        "marks": 72
+    },
+    {
+        "student_id": 104,
+        "name": "Anita",
+        "age": 23,
+        "city": "Mumbai",
+        "marks": 88
+    }
+]
+result = transform_students(students)
+
+print(result)
