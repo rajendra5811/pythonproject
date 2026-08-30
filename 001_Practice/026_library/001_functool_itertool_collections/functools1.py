@@ -1,4 +1,4 @@
-from functools import cache, cached_property, lru_cache
+from functools import cache, cached_property, lru_cache, partial
 import time
 
 def fib(n):
@@ -30,3 +30,8 @@ def add_5(num):
     return num + 5
 bench_fib()
 cached_fib(3)
+add_one = partial(add_5(5), 1)
+print(add_one(4))
+print(fib.cache_info())
+#Time taken without coaching: 27.42129 seconds
+#Time taken with caching: 18.61043 seconds
