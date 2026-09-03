@@ -3,3 +3,6 @@ Fetchedhttps://www.python.org: 52749 bytes
 Fetchedhttps://www.github.com: 573312 bytes
 Fetchedhttps://bostondynamics.com: 136113 bytes
 Total time: 4.28 seconds
+002_multiprocessing.py
+Time taken with multiprocessing: 3.038 seconds
+Time taken with threads: 3.151 seconds
