@@ -1,0 +1,5 @@
+001_craping_threading.py
+Fetchedhttps://www.python.org: 52749 bytes
+Fetchedhttps://www.github.com: 573312 bytes
+Fetchedhttps://bostondynamics.com: 136113 bytes
+Total time: 4.28 seconds
