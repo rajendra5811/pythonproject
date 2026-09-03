@@ -7,8 +7,15 @@ print(i_nums1)
 print(i_nums)
 print(dir(i_nums))
 
+while True:
+    try:
+        print(next(i_nums1))
+    except StopIteration:
+        break
+    
 print(next(i_nums1))
 print(next(i_nums1))
 print(next(i_nums1))
+
 for num in i_nums:
     print(num)
