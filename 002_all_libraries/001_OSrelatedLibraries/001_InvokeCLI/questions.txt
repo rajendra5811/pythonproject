@@ -1,0 +1,1 @@
+1)How do you design a production-grade Python class that leverages `pathlib`, `os`, `sys`, and `subprocess` to handle workspace initialization, environment variables, runtime arguments, and external CLI execution?
