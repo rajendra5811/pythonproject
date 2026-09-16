@@ -1,3 +1,4 @@
+#sqlalchemy orm
 from sqlalchemy import Integer, String,
 from sqlalchemy.orm import Mapped, mapped_column, relationship,declarative_base
 from sqlalchemy import ForeignKey
@@ -13,3 +14,40 @@ class Student(Base):
     department_id: Mapped[int] = mapped_column(
         ForeignKey("departments.department_id")
     )
+# sqlalchemy core 
+from sqlalchemy import Column, Integer, String, create_engine
+from sqlalchemy.orm import DeclarativeBase, Session, mapped_column
+
+# 1. Setup the Database Engine (e.g., SQLite in-memory)
+engine = create_engine("sqlite+pysqlite:///:memory:", echo=True)
+
+
+# 2. Define the Base and ORM Models (SQLAlchemy 2.0 style)
+class Base(DeclarativeBase):
+  pass
+
+
+class User(Base):
+  __tablename__ = "users"
+
+  id: int = mapped_column(Integer, primary_key=True)
+  name: str = mapped_column(String(50))
+  fullname: str = mapped_column(String(50))
+
+  def __repr__(self):
+    return f"<User(name={self.name}, fullname={self.fullname})>"
+
+
+# Create the tables in the database
+Base.metadata.create_all(engine)
+
+# 3. Use a Session to Insert and Query Data
+with Session(engine) as session:
+  # Add a new record
+  new_user = User(name="john_doe", fullname="John Doe")
+  session.add(new_user)
+  session.commit()
+
+  # Query the record
+  user = session.query(User).filter_by(name="john_doe").first()
+  print(user)
