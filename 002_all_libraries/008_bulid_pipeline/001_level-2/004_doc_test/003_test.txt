@@ -1,0 +1,125 @@
+Answer these without checking anything.
+
+Round 1 — 60 seconds
+
+Write the primary job of:
+
+1. os : system env varaiables and file system, d
+2. pathlib: filesystems and path
+3. json: json to python visaversa
+4. datetime: if date and time are important, timedelta for artimatic operation of time
+5. re: string or char or digits or symbol related matching or search in string,splits
+6. collections:counter is operation on iterator, namedtuple is tuple with list features, defaultdict is a dict with default values, deque is similar to double linkedlist
+7. logging:It is notification or display  from info to cirtical level 
+8. httpx: It is similar to requests
+9. asyncio: It is asyncrons for concurrency in function
+10. boto3: It is s3 services like client, resorce
+Round 2 — 90 seconds
+
+Write at least 5 methods/functions from memory for each:
+
+11. os
+os.mkdir()
+os.getcwd()
+os.makedir()
+os.listdir()
+os.remove()
+12. pathlib
+path.exists()
+path.mkdir()
+path.remove()
+path.listdir()
+13. json
+json.dumps()
+json.dump()
+json.load()
+json.loads()
+14. datetime
+datetime.now()
+date.today()
+date.strfrt()
+datetime.utc()
+15. re
+re.match()
+re.search()
+re.findall()
+re.substring()
+re.fullmatch()
+Round 3 — scenario retrieval
+
+16. You have 50,000 files and need only .json files. What library + method?
+json,pathlib(open dir),sys(only .json files) reading extension ,logging
+
+17. You need to convert a Python dictionary into a JSON file. What function?
+json.dump() function 
+18. You need to remove phone-number patterns from text. What library/function?
+re.match() if single digits or collective then re.substring()
+19. You need to record ETL failures in production. What library?
+logging
+20. You need to call 1,000 APIs concurrently. What combination?
+asynico
+21. You need to upload processed/students.parquet to S3. What library?
+boto3
+22. You need to count how many records belong to each city. What collections object?
+Counter
+23. You need to group students by department. What collections object?
+defaultdict
+24. You need a queue where items are efficiently added/removed from both ends. What?
+dequqe
+25. You need to execute another Python script from your pipeline. What library?
+
+26. You have CPU-heavy calculations. Threading or multiprocessing?
+multiprocessing are capable of cpu
+27. You have network/file waiting. Threading or multiprocessing?
+threading are capable of I/O
+28. You need command-line arguments. What module?
+subprocess
+29. You need ceil, floor, and sqrt. What module?
+math
+30. You need to cache an expensive function. Which module/function?
+functools cache() or lru_cache()
+🚀 The end goal
+
+Don't aim for:
+
+"I know 18 libraries."
+
+Aim for this level of automatic thinking:
+
+SCENARIO
+   ↓
+WHAT KIND OF PROBLEM?
+   ↓
+filesystem?     → pathlib/os
+JSON?           → json
+text pattern?   → re
+time?           → datetime
+count/group?    → collections
+monitoring?     → logging
+API?            → httpx
+AWS?            → boto3
+I/O concurrency?→ asyncio/threading
+CPU concurrency?→ multiprocessing
+iteration?      → itertools
+function reuse? → functools
+external app?   → subprocess
+runtime/CLI?    → sys
+math?           → math
+contracts?      → typing
+
+Fast Retrieval Test — immediately after coding
+
+Without looking at your code, answer:
+
+A. Which pathlib method finds files matching a pattern?
+glob()
+B. What pattern means "all JSON files"?
+glob(".json")
+C. Which method checks whether a path exists?
+path.exists(path)
+D. Why use logging instead of print() in this pipeline?
+logging can differ in levels basic config , alert , info, error, debug etc
+E. What would you change if JSON files could exist inside nested folders?
+
+
+I want 1-DAY RETRIEVAL PROGRAM and 1-day perfection test
