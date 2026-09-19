@@ -22,4 +22,11 @@ print(list(filtered))  # Output: [1, 3, 5]
 
 grouped = itertools.groupby(l, key=lambda x: x % 2)
 for key, group in grouped:
-    print(f"Key: {key}, Group: {list(group)}", sep=", ")  # Output: Key: 1, Group: [1], Key: 0, Group: [2], Key: 1, Group: [3], Key: 0, Group: [4], Key: 1, Group: [5]
+    print(f"Key: {key}, Group: {list(group)}", sep=", ")  
+
+l = ['apple', 'banana', 'cherry', 'date']
+sliced = itertools.islice(l, 1, 3)
+print(list(sliced))  # Output: ['banana', 'cherry']
+
+pairwise = itertools.pairwise(l)
+print(list(pairwise))  
