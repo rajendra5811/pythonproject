@@ -19,3 +19,7 @@ print(list(remaining))  # Output: [3, 4, 5]
 
 filtered = itertools.filterfalse(lambda x: x % 2 == 0, l)
 print(list(filtered))  # Output: [1, 3, 5]
+
+grouped = itertools.groupby(l, key=lambda x: x % 2)
+for key, group in grouped:
+    print(f"Key: {key}, Group: {list(group)}", sep=", ")  # Output: Key: 1, Group: [1], Key: 0, Group: [2], Key: 1, Group: [3], Key: 0, Group: [4], Key: 1, Group: [5]
