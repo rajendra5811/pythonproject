@@ -1,4 +1,4 @@
-from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column
+from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column, relationship
 from sqlalchemy import ForeignKey,Text
 
 class Base(DeclarativeBase()):
@@ -12,9 +12,16 @@ class User(Base):
     email_address:Mapped[str] = mapped_column(nullable = False)
     comments:Mapped[list["Comment"]] = mapped_column(back_populates = "user")
 
+    def __repr__(self) -> str:
+            return f"<User username = {self.username}>"
+
 class Comment(Base):
     __tablename__ = "comments"
 
     id:Mapped[int] = mapped_column(primary_key = True)
     user_id:Mapped[int] = mapped_column(ForeignKey("users.id"), nullable = False)
     text:Mapped[str] = mapped_column(Text, nullable = False)
+    user:Mapped["User"] = relationship(back_populates = "comments")
+
+    def __repr__(self) -> str:
+            return f"<Comment text = {self.text} by {self.user.username}>"
