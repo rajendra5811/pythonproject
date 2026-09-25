@@ -12,7 +12,7 @@ import threading
 from collections import Counter, defaultdict, namedtuple
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any, TypedDict
+from typing import Any, TypedDict,Optional
 
 import boto3
 import httpx
