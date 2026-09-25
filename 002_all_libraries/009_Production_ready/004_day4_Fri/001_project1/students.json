@@ -1,0 +1,42 @@
+[
+    {
+      "id": 1,
+      "name": "  rajendra   veerelli ",
+      "city": "hyd123",
+      "email": "RAJ@EXAMPLE.COM",
+      "marks": 91,
+      "source": "local"
+    },
+    {
+      "id": 2,
+      "name": "alice",
+      "city": "delhi",
+      "email": "alice@example.com",
+      "marks": 78,
+      "source": "local"
+    },
+    {
+      "id": 2,
+      "name": "alice duplicate",
+      "city": "delhi",
+      "email": "alice@example.com",
+      "marks": 78,
+      "source": "local"
+    },
+    {
+      "id": 3,
+      "name": "bob",
+      "city": "HYD",
+      "email": "",
+      "marks": 55,
+      "source": "local"
+    },
+    {
+      "id": 4,
+      "name": "john",
+      "city": "DEL!",
+      "email": "john@example.com",
+      "marks": 39,
+      "source": "local"
+    }
+  ]
