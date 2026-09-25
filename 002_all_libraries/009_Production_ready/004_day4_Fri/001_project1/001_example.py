@@ -9,7 +9,7 @@ import re
 import subprocess
 import sys
 import threading
-from collections import Counter, defaultdict
+from collections import Counter, defaultdict, namedtuple
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, TypedDict
