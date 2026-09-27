@@ -1,0 +1,2 @@
+functools
+pandas_datareader
