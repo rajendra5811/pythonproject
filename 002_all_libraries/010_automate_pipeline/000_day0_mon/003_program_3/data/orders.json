@@ -1,0 +1,65 @@
+[
+    {
+      "order_id": "1001",
+      "customer_id": "C101",
+      "order_date": "2026-09-28",
+      "product_id": "P001",
+      "quantity": 2,
+      "unit_price": 499.50,
+      "status": "Completed"
+    },
+    {
+      "order_id": "1002",
+      "customer_id": "C102",
+      "order_date": "2026-09-28",
+      "product_id": "P002",
+      "quantity": 1,
+      "unit_price": 1200,
+      "status": "Completed"
+    },
+    {
+      "order_id": "1003",
+      "customer_id": "C103",
+      "order_date": "2026-09-28",
+      "product_id": "P003",
+      "quantity": -1,
+      "unit_price": 800,
+      "status": "Completed"
+    },
+    {
+      "order_id": "1004",
+      "customer_id": "C104",
+      "order_date": "2026-09-29",
+      "product_id": "P004",
+      "quantity": 3,
+      "unit_price": 250,
+      "status": "Cancelled"
+    },
+    {
+      "order_id": "1005",
+      "customer_id": "C105",
+      "order_date": "invalid-date",
+      "product_id": "P005",
+      "quantity": 2,
+      "unit_price": 300,
+      "status": "Completed"
+    },
+    {
+      "order_id": "1002",
+      "customer_id": "C102",
+      "order_date": "2026-09-28",
+      "product_id": "P002",
+      "quantity": 1,
+      "unit_price": 1200,
+      "status": "Completed"
+    },
+    {
+      "order_id": "1006",
+      "customer_id": "C106",
+      "order_date": "2026-09-29",
+      "product_id": "P006",
+      "quantity": 4,
+      "unit_price": 150,
+      "status": "Completed"
+    }
+]

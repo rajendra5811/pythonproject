@@ -1,0 +1,72 @@
+2026-09-28 22:17:08,503 - INFO - Starting extraction from JSON
+2026-09-28 22:17:08,506 - INFO - Extracted 7 records
+2026-09-28 22:17:08,525 - INFO - Clean records: 4
+2026-09-28 22:17:08,525 - INFO - Rejected records: 3
+2026-09-28 22:17:08,532 - INFO - Local JSON output files created
+2026-09-28 22:17:08,533 - ERROR - Pipeline failed: S3_BUCKET_NAME environment variable is not set
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Music\nanodegree\002_all_libraries\010_automate_pipeline\000_day0_mon\003_program_3\001_orders_pipeline.py", line 299, in run_pipeline
+    load_to_s3(output_files)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Music\nanodegree\002_all_libraries\010_automate_pipeline\000_day0_mon\003_program_3\001_orders_pipeline.py", line 278, in load_to_s3
+    upload_to_s3(file_path, s3_key)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Music\nanodegree\002_all_libraries\010_automate_pipeline\000_day0_mon\003_program_3\001_orders_pipeline.py", line 246, in upload_to_s3
+    raise ValueError(
+        "S3_BUCKET_NAME environment variable is not set"
+    )
+ValueError: S3_BUCKET_NAME environment variable is not set
+2026-09-28 22:20:33,129 - INFO - Starting extraction from JSON
+2026-09-28 22:20:33,130 - ERROR - Pipeline failed: Expecting ',' delimiter: line 64 column 1 (char 1431)
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Music\nanodegree\002_all_libraries\010_automate_pipeline\000_day0_mon\003_program_3\001_orders_pipeline.py", line 268, in run_pipeline
+    records = extract_json()
+  File "C:\Users\lenovo\Music\nanodegree\002_all_libraries\010_automate_pipeline\000_day0_mon\003_program_3\001_orders_pipeline.py", line 33, in extract_json
+    records = json.load(file)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python314\Lib\json\__init__.py", line 298, in load
+    return loads(fp.read(),
+        cls=cls, object_hook=object_hook,
+        parse_float=parse_float, parse_int=parse_int,
+        parse_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python314\Lib\json\__init__.py", line 352, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python314\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python314\Lib\json\decoder.py", line 361, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ~~~~~~~~~~~~~~^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 64 column 1 (char 1431)
+2026-09-28 22:22:19,042 - INFO - Starting extraction from JSON
+2026-09-28 22:22:19,043 - ERROR - Pipeline failed: Expecting ',' delimiter: line 65 column 1 (char 1437)
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Music\nanodegree\002_all_libraries\010_automate_pipeline\000_day0_mon\003_program_3\001_orders_pipeline.py", line 268, in run_pipeline
+    records = extract_json()
+  File "C:\Users\lenovo\Music\nanodegree\002_all_libraries\010_automate_pipeline\000_day0_mon\003_program_3\001_orders_pipeline.py", line 33, in extract_json
+    records = json.load(file)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python314\Lib\json\__init__.py", line 298, in load
+    return loads(fp.read(),
+        cls=cls, object_hook=object_hook,
+        parse_float=parse_float, parse_int=parse_int,
+        parse_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python314\Lib\json\__init__.py", line 352, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python314\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python314\Lib\json\decoder.py", line 361, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ~~~~~~~~~~~~~~^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 65 column 1 (char 1437)
+2026-09-28 22:22:45,385 - INFO - Starting extraction from JSON
+2026-09-28 22:22:45,386 - INFO - Extracted 7 records
+2026-09-28 22:22:45,391 - INFO - Loading raw records into SQLite
+2026-09-28 22:22:45,443 - INFO - Loaded 7 raw records
+2026-09-28 22:22:45,444 - INFO - Starting SQL transformations
+2026-09-28 22:22:45,502 - INFO - SQL transformations completed
+2026-09-28 22:22:45,502 - INFO - Exporting transformed data
+2026-09-28 22:22:45,505 - INFO - Exported 4 records to C:\Users\lenovo\Music\nanodegree\002_all_libraries\010_automate_pipeline\000_day0_mon\003_program_3\output\clean_orders.json
+2026-09-28 22:22:45,507 - INFO - Exported 3 records to C:\Users\lenovo\Music\nanodegree\002_all_libraries\010_automate_pipeline\000_day0_mon\003_program_3\output\rejected_orders.json
+2026-09-28 22:22:45,509 - INFO - Exported 2 records to C:\Users\lenovo\Music\nanodegree\002_all_libraries\010_automate_pipeline\000_day0_mon\003_program_3\output\daily_sales_summary.json

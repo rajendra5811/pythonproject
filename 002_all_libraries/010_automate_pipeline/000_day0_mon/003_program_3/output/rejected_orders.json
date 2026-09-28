@@ -1,0 +1,35 @@
+[
+    {
+        "load_id": 3,
+        "order_id": "1003",
+        "customer_id": "C103",
+        "order_date": "2026-09-28",
+        "product_id": "P003",
+        "quantity": "-1",
+        "unit_price": "800",
+        "status": "Completed",
+        "rejection_reason": "Invalid quantity"
+    },
+    {
+        "load_id": 5,
+        "order_id": "1005",
+        "customer_id": "C105",
+        "order_date": "invalid-date",
+        "product_id": "P005",
+        "quantity": "2",
+        "unit_price": "300",
+        "status": "Completed",
+        "rejection_reason": "Invalid order_date"
+    },
+    {
+        "load_id": 6,
+        "order_id": "1002",
+        "customer_id": "C102",
+        "order_date": "2026-09-28",
+        "product_id": "P002",
+        "quantity": "1",
+        "unit_price": "1200",
+        "status": "Completed",
+        "rejection_reason": "Duplicate order_id"
+    }
+]
