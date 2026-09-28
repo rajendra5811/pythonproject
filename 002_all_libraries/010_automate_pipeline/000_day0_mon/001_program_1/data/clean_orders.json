@@ -1,0 +1,20 @@
+[
+    {
+        "order_id": 101,
+        "customer": "Raj",
+        "email": "raj@email.com",
+        "city": "HYD",
+        "amount": 1500.0,
+        "order_date": "2026-09-20",
+        "processed_at": "2026-09-28T17:45:10.575638"
+    },
+    {
+        "order_id": 102,
+        "customer": "Alice",
+        "email": "alice@email.com",
+        "city": "DEL",
+        "amount": 2500.0,
+        "order_date": "2026-09-21",
+        "processed_at": "2026-09-28T17:45:10.575736"
+    }
+]

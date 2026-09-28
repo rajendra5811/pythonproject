@@ -1,0 +1,26 @@
+[
+    {
+        "order_id": 101,
+        "customer": " raj ",
+        "email": "RAJ@EMAIL.COM",
+        "city": "hyd",
+        "amount": 1500,
+        "order_date": "2026-09-20"
+    },
+    {
+        "order_id": 102,
+        "customer": " Alice ",
+        "email": "alice@email.com",
+        "city": "del",
+        "amount": 2500,
+        "order_date": "2026-09-21"
+    },
+    {
+        "order_id": 103,
+        "customer": "Bob",
+        "email": "invalid-email",
+        "city": "hyd",
+        "amount": 1000,
+        "order_date": "2026-09-22"
+    }
+]
