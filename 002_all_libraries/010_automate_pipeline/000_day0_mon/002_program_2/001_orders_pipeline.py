@@ -6,7 +6,7 @@ import pandas as pd
 
 
 BASE_DIR = Path(__file__).resolve().parent
-INPUT_FILE = BASE_DIR / "data" / "orders.csv"
+INPUT_FILE = BASE_DIR / "BASE_DIR" / "data" / "orders.csv"
 OUTPUT_DIR = BASE_DIR / "output"
 DATABASE_FILE = BASE_DIR / "orders.db"
 LOG_FILE = OUTPUT_DIR / "orders_pipeline.log"

@@ -1,0 +1,36 @@
+2026-09-28 19:27:23,147 - INFO - Starting extraction
+2026-09-28 19:27:23,148 - ERROR - Pipeline failed: Input file not found: C:\Users\lenovo\Music\nanodegree\002_all_libraries\010_automate_pipeline\000_day0_mon\002_program_2\data\orders.csv
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Music\nanodegree\002_all_libraries\010_automate_pipeline\000_day0_mon\002_program_2\001_orders_pipeline.py", line 214, in run_pipeline
+    raw_data = extract()
+  File "C:\Users\lenovo\Music\nanodegree\002_all_libraries\010_automate_pipeline\000_day0_mon\002_program_2\001_orders_pipeline.py", line 41, in extract
+    raise FileNotFoundError(f"Input file not found: {INPUT_FILE}")
+FileNotFoundError: Input file not found: C:\Users\lenovo\Music\nanodegree\002_all_libraries\010_automate_pipeline\000_day0_mon\002_program_2\data\orders.csv
+2026-09-28 19:27:53,559 - INFO - Starting extraction
+2026-09-28 19:27:53,560 - ERROR - Pipeline failed: Input file not found: C:\Users\lenovo\Music\nanodegree\002_all_libraries\010_automate_pipeline\000_day0_mon\002_program_2\data\orders.csv
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Music\nanodegree\002_all_libraries\010_automate_pipeline\000_day0_mon\002_program_2\001_orders_pipeline.py", line 214, in run_pipeline
+    raw_data = extract()
+  File "C:\Users\lenovo\Music\nanodegree\002_all_libraries\010_automate_pipeline\000_day0_mon\002_program_2\001_orders_pipeline.py", line 41, in extract
+    raise FileNotFoundError(f"Input file not found: {INPUT_FILE}")
+FileNotFoundError: Input file not found: C:\Users\lenovo\Music\nanodegree\002_all_libraries\010_automate_pipeline\000_day0_mon\002_program_2\data\orders.csv
+2026-09-28 19:31:18,466 - INFO - Starting extraction
+2026-09-28 19:31:18,487 - INFO - Extracted 7 rows
+2026-09-28 19:31:18,489 - INFO - Starting validation
+2026-09-28 19:31:18,553 - INFO - Clean rows: 4
+2026-09-28 19:31:18,553 - INFO - Rejected rows: 3
+2026-09-28 19:31:18,554 - INFO - Starting transformation
+2026-09-28 19:31:18,592 - INFO - Transformation completed
+2026-09-28 19:31:18,593 - INFO - Starting load
+2026-09-28 19:31:18,729 - INFO - Data loaded into CSV files and SQLite
+2026-09-28 19:31:18,729 - INFO - Pipeline completed successfully
+2026-09-28 19:32:38,162 - INFO - Starting extraction
+2026-09-28 19:32:38,190 - INFO - Extracted 7 rows
+2026-09-28 19:32:38,191 - INFO - Starting validation
+2026-09-28 19:32:38,242 - INFO - Clean rows: 4
+2026-09-28 19:32:38,242 - INFO - Rejected rows: 3
+2026-09-28 19:32:38,243 - INFO - Starting transformation
+2026-09-28 19:32:38,280 - INFO - Transformation completed
+2026-09-28 19:32:38,280 - INFO - Starting load
+2026-09-28 19:32:38,406 - INFO - Data loaded into CSV files and SQLite
+2026-09-28 19:32:38,407 - INFO - Pipeline completed successfully

@@ -1,0 +1,4 @@
+order_id,customer_id,order_date,product_id,quantity,unit_price,status,rejection_reason
+1003,C103,2026-09-28,P003,-1,800.0,Completed,Validation failed
+1005,C105,,P005,2,300.0,Completed,Validation failed
+1002,C102,2026-09-28,P002,1,1200.0,Completed,Duplicate order_id

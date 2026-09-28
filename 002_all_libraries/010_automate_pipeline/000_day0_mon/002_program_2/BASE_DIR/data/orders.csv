@@ -1,0 +1,8 @@
+order_id,customer_id,order_date,product_id,quantity,unit_price,status
+1001,C101,2026-09-28,P001,2,499.50,Completed
+1002,C102,2026-09-28,P002,1,1200,Completed
+1003,C103,2026-09-28,P003,-1,800,Completed
+1004,C104,2026-09-29,P004,3,250,Cancelled
+1005,C105,invalid-date,P005,2,300,Completed
+1002,C102,2026-09-28,P002,1,1200,Completed
+1006,C106,2026-09-29,P006,4,150,Completed
