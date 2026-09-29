@@ -1,0 +1,5 @@
+2026-09-29 08:00:15 [SERVICE-ALPHA] INFO: Application initialized successfully
+2026-09-29 08:05:22 [SERVICE-ALPHA] WARN: High memory usage detected (85%)
+2026-09-29 08:10:00 [SERVICE-ALPHA] ERROR: Failed to connect to Redis cache
+This is a malformed log line without standard structure
+2026-09-29 08:15:40 [SERVICE-ALPHA] ERROR: Database connection timeout
