@@ -1,0 +1,6 @@
+[
+    {"name": " Raj ", "city": " Hyderabad ", "email": "RAJ@EXAMPLE.COM"},
+    {"name": " Alice ", "city": " Delhi ", "email": "ALICE@EXAMPLE.COM"},
+    {"name": " Bob ", "city": " Hyderabad ", "email": "BOB@EXAMPLE.COM"},
+    {"name": " John ", "city": " Delhi ", "email": "JOHN@EXAMPLE.COM"}
+  ]
