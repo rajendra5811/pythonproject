@@ -1,0 +1,82 @@
+[
+    {
+      "payment_id": "PAY1001",
+      "order_id": 1001,
+      "customer_id": "C101",
+      "payment_date": "2026-09-28",
+      "amount": 999.00,
+      "method": "UPI",
+      "status": "Success",
+      "order_amount": 999.00
+    },
+    {
+      "payment_id": "PAY1002",
+      "order_id": 1002,
+      "customer_id": "C102",
+      "payment_date": "2026-09-28",
+      "amount": 1200.00,
+      "method": "Card",
+      "status": "Success",
+      "order_amount": 1200.00
+    },
+    {
+      "payment_id": "PAY1003",
+      "order_id": 1003,
+      "customer_id": "C103",
+      "payment_date": "2026-09-28",
+      "amount": 800.00,
+      "method": "Net Banking",
+      "status": "Failed",
+      "order_amount": 800.00
+    },
+    {
+      "payment_id": "PAY1004",
+      "order_id": 1004,
+      "customer_id": "C104",
+      "payment_date": "2026-09-29",
+      "amount": 750.00,
+      "method": "UPI",
+      "status": "Success",
+      "order_amount": 750.00
+    },
+    {
+      "payment_id": "PAY1005",
+      "order_id": 1005,
+      "customer_id": "C105",
+      "payment_date": "invalid-date",
+      "amount": 600.00,
+      "method": "Card",
+      "status": "Success",
+      "order_amount": 600.00
+    },
+    {
+      "payment_id": "PAY1002",
+      "order_id": 1002,
+      "customer_id": "C102",
+      "payment_date": "2026-09-28",
+      "amount": 1200.00,
+      "method": "Card",
+      "status": "Success",
+      "order_amount": 1200.00
+    },
+    {
+      "payment_id": "PAY1006",
+      "order_id": 1006,
+      "customer_id": "C106",
+      "payment_date": "2026-09-29",
+      "amount": -150.00,
+      "method": "UPI",
+      "status": "Success",
+      "order_amount": 600.00
+    },
+    {
+      "payment_id": "PAY1007",
+      "order_id": 1007,
+      "customer_id": "C107",
+      "payment_date": "2026-09-29",
+      "amount": 500.00,
+      "method": "Wallet",
+      "status": "Success",
+      "order_amount": 600.00
+    }
+  ]

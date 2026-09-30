@@ -1,0 +1,17 @@
+[
+    {
+        "reconciliation_status": "Amount Mismatch",
+        "payment_count": 1,
+        "total_amount": 500.0
+    },
+    {
+        "reconciliation_status": "Failed Payment",
+        "payment_count": 1,
+        "total_amount": 800.0
+    },
+    {
+        "reconciliation_status": "Matched",
+        "payment_count": 3,
+        "total_amount": 2949.0
+    }
+]

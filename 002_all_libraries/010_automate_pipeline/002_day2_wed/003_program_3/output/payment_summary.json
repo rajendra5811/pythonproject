@@ -1,0 +1,37 @@
+[
+    {
+        "payment_date": "2026-09-28",
+        "method": "Card",
+        "payment_count": 1,
+        "successful_amount": 1200.0,
+        "failed_payment_count": 0
+    },
+    {
+        "payment_date": "2026-09-28",
+        "method": "Net Banking",
+        "payment_count": 1,
+        "successful_amount": 0,
+        "failed_payment_count": 1
+    },
+    {
+        "payment_date": "2026-09-28",
+        "method": "UPI",
+        "payment_count": 1,
+        "successful_amount": 999.0,
+        "failed_payment_count": 0
+    },
+    {
+        "payment_date": "2026-09-29",
+        "method": "UPI",
+        "payment_count": 1,
+        "successful_amount": 750.0,
+        "failed_payment_count": 0
+    },
+    {
+        "payment_date": "2026-09-29",
+        "method": "Wallet",
+        "payment_count": 1,
+        "successful_amount": 500.0,
+        "failed_payment_count": 0
+    }
+]

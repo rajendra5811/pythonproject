@@ -1,0 +1,38 @@
+[
+    {
+        "load_id": 5,
+        "payment_id": "PAY1005",
+        "order_id": "1005",
+        "customer_id": "C105",
+        "payment_date": "invalid-date",
+        "amount": "600.0",
+        "method": "Card",
+        "status": "Success",
+        "order_amount": "600.0",
+        "rejection_reason": "Invalid payment_date"
+    },
+    {
+        "load_id": 6,
+        "payment_id": "PAY1002",
+        "order_id": "1002",
+        "customer_id": "C102",
+        "payment_date": "2026-09-28",
+        "amount": "1200.0",
+        "method": "Card",
+        "status": "Success",
+        "order_amount": "1200.0",
+        "rejection_reason": "Duplicate payment_id"
+    },
+    {
+        "load_id": 7,
+        "payment_id": "PAY1006",
+        "order_id": "1006",
+        "customer_id": "C106",
+        "payment_date": "2026-09-29",
+        "amount": "-150.0",
+        "method": "UPI",
+        "status": "Success",
+        "order_amount": "600.0",
+        "rejection_reason": "Amount cannot be negative"
+    }
+]

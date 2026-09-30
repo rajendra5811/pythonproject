@@ -1,0 +1,62 @@
+[
+    {
+        "payment_id": "PAY1001",
+        "order_id": "1001",
+        "customer_id": "C101",
+        "payment_date": "2026-09-28",
+        "amount": 999.0,
+        "method": "UPI",
+        "status": "Success",
+        "order_amount": 999.0,
+        "reconciliation_difference": 0.0,
+        "reconciliation_status": "Matched"
+    },
+    {
+        "payment_id": "PAY1002",
+        "order_id": "1002",
+        "customer_id": "C102",
+        "payment_date": "2026-09-28",
+        "amount": 1200.0,
+        "method": "Card",
+        "status": "Success",
+        "order_amount": 1200.0,
+        "reconciliation_difference": 0.0,
+        "reconciliation_status": "Matched"
+    },
+    {
+        "payment_id": "PAY1003",
+        "order_id": "1003",
+        "customer_id": "C103",
+        "payment_date": "2026-09-28",
+        "amount": 800.0,
+        "method": "Net Banking",
+        "status": "Failed",
+        "order_amount": 800.0,
+        "reconciliation_difference": 0.0,
+        "reconciliation_status": "Failed Payment"
+    },
+    {
+        "payment_id": "PAY1004",
+        "order_id": "1004",
+        "customer_id": "C104",
+        "payment_date": "2026-09-29",
+        "amount": 750.0,
+        "method": "UPI",
+        "status": "Success",
+        "order_amount": 750.0,
+        "reconciliation_difference": 0.0,
+        "reconciliation_status": "Matched"
+    },
+    {
+        "payment_id": "PAY1007",
+        "order_id": "1007",
+        "customer_id": "C107",
+        "payment_date": "2026-09-29",
+        "amount": 500.0,
+        "method": "Wallet",
+        "status": "Success",
+        "order_amount": 600.0,
+        "reconciliation_difference": -100.0,
+        "reconciliation_status": "Amount Mismatch"
+    }
+]
