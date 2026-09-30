@@ -1,0 +1,32 @@
+2026-09-30 13:05:23,663 | INFO | ========== PIPELINE START ==========
+2026-09-30 13:05:23,663 | INFO | Reading source file: data\orders.json
+2026-09-30 13:05:23,664 | INFO | Extracted 3 orders
+2026-09-30 13:05:23,718 | WARNING | Invalid order skipped: 103
+2026-09-30 13:05:23,718 | INFO | Valid orders after transformation: 2
+2026-09-30 13:05:23,720 | INFO | Loaded 2 orders into data\clean_orders.json
+2026-09-30 13:05:23,720 | INFO | City distribution: {'HYD': 1, 'DEL': 1}
+2026-09-30 13:05:23,721 | INFO | ========== PIPELINE SUCCESS ==========
+2026-09-30 13:06:01,674 | INFO | ========== PIPELINE START ==========
+2026-09-30 13:06:01,674 | INFO | Reading source file: data\orders.json
+2026-09-30 13:06:01,675 | INFO | Extracted 3 orders
+2026-09-30 13:06:01,685 | WARNING | Invalid order skipped: 103
+2026-09-30 13:06:01,685 | INFO | Valid orders after transformation: 2
+2026-09-30 13:06:01,687 | INFO | Loaded 2 orders into data\clean_orders.json
+2026-09-30 13:06:01,687 | INFO | City distribution: {'HYD': 1, 'DEL': 1}
+2026-09-30 13:06:01,687 | INFO | ========== PIPELINE SUCCESS ==========
+2026-09-30 13:06:23,875 | INFO | ========== PIPELINE START ==========
+2026-09-30 13:06:23,875 | INFO | Reading source file: data\orders.json
+2026-09-30 13:06:23,876 | INFO | Extracted 3 orders
+2026-09-30 13:06:23,885 | WARNING | Invalid order skipped: 103
+2026-09-30 13:06:23,885 | INFO | Valid orders after transformation: 2
+2026-09-30 13:06:23,887 | INFO | Loaded 2 orders into data\clean_orders.json
+2026-09-30 13:06:23,887 | INFO | City distribution: {'HYD': 1, 'DEL': 1}
+2026-09-30 13:06:23,887 | INFO | ========== PIPELINE SUCCESS ==========
+2026-09-30 13:11:07,529 | INFO | ========== PIPELINE START ==========
+2026-09-30 13:11:07,559 | INFO | Reading source file: data\orders.json
+2026-09-30 13:11:07,560 | INFO | Extracted 3 orders
+2026-09-30 13:11:07,579 | WARNING | Invalid order skipped: 103
+2026-09-30 13:11:07,579 | INFO | Valid orders after transformation: 2
+2026-09-30 13:11:07,581 | INFO | Loaded 2 orders into data\clean_orders.json
+2026-09-30 13:11:07,581 | INFO | City distribution: {'HYD': 1, 'DEL': 1}
+2026-09-30 13:11:07,581 | INFO | ========== PIPELINE SUCCESS ==========
