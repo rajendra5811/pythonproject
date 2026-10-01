@@ -1,0 +1,30 @@
+[
+    {
+      "txn_id": "TXN-9081234",
+      "amount": 250.50,
+      "currency": "USD",
+      "gateway": "STRIPE",
+      "customer_id": "CUST-8821"
+    },
+    {
+      "txn_id": "TXN-9081235",
+      "amount": 1200.00,
+      "currency": "EUR",
+      "gateway": "PAYPAL",
+      "customer_id": "CUST-4412"
+    },
+    {
+      "txn_id": "TXN-9081236",
+      "amount": 45.99,
+      "currency": "USD",
+      "gateway": "STRIPE",
+      "customer_id": "CUST-1092"
+    },
+    {
+      "txn_id": "TXN-9081237",
+      "amount": 540.25,
+      "currency": "GBP",
+      "gateway": "ADYEN",
+      "customer_id": "CUST-3310"
+    }
+  ]
