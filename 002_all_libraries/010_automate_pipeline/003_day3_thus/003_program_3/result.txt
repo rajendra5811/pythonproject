@@ -1,0 +1,7 @@
+Processed 20 payment records.
+approved: 10
+pending: 10
+Sample records:
+PaymentRecord(txn_id='TXN-0', amount=10.0, status='approved')
+PaymentRecord(txn_id='TXN-1', amount=12.5, status='pending')
+PaymentRecord(txn_id='TXN-2', amount=15.0, status='approved')
