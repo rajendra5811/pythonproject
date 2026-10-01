@@ -1,0 +1,11 @@
+2026-10-01 10:27:12,971 - INFO - Starting payment extraction
+2026-10-01 10:27:12,972 - INFO - Extracted 8 payment records
+2026-10-01 10:27:12,978 - INFO - Loading raw payments into SQLite
+2026-10-01 10:27:13,032 - INFO - Loaded 8 raw payment records
+2026-10-01 10:27:13,032 - INFO - Starting SQL transformations
+2026-10-01 10:27:13,101 - INFO - SQL transformations completed
+2026-10-01 10:27:13,102 - INFO - Exporting transformed tables
+2026-10-01 10:27:13,104 - INFO - Exported 5 records to C:\Users\lenovo\Music\nanodegree\002_all_libraries\010_automate_pipeline\003_day3_thus\001_program_1\output\clean_payments.json
+2026-10-01 10:27:13,107 - INFO - Exported 3 records to C:\Users\lenovo\Music\nanodegree\002_all_libraries\010_automate_pipeline\003_day3_thus\001_program_1\output\rejected_payments.json
+2026-10-01 10:27:13,109 - INFO - Exported 5 records to C:\Users\lenovo\Music\nanodegree\002_all_libraries\010_automate_pipeline\003_day3_thus\001_program_1\output\payment_summary.json
+2026-10-01 10:27:13,111 - INFO - Exported 3 records to C:\Users\lenovo\Music\nanodegree\002_all_libraries\010_automate_pipeline\003_day3_thus\001_program_1\output\reconciliation_summary.json
