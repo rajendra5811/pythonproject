@@ -1,0 +1,5 @@
+Banking ELT pipeline completed successfully.
+Clean transactions: 9
+Rejected transactions: 3
+Account summaries: 4
+Fraud alerts: 4

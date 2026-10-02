@@ -1,0 +1,92 @@
+[
+    {
+      "transaction_id": "TXN1001",
+      "account_id": "ACC101",
+      "transaction_date": "2026-09-28 09:00:00",
+      "transaction_type": "Deposit",
+      "amount": 50000,
+      "balance": 50000,
+      "location": "Hyderabad"
+    },
+    {
+      "transaction_id": "TXN1002",
+      "account_id": "ACC101",
+      "transaction_date": "2026-09-28 09:10:00",
+      "transaction_type": "Withdrawal",
+      "amount": 5000,
+      "balance": 45000,
+      "location": "Hyderabad"
+    },
+    {
+      "transaction_id": "TXN1003",
+      "account_id": "ACC101",
+      "transaction_date": "2026-09-28 09:20:00",
+      "transaction_type": "Withdrawal",
+      "amount": 10000,
+      "balance": 35000,
+      "location": "Hyderabad"
+    },
+    {
+      "transaction_id": "TXN1004",
+      "account_id": "ACC102",
+      "transaction_date": "2026-09-28 10:00:00",
+      "transaction_type": "Deposit",
+      "amount": 75000,
+      "balance": 75000,
+      "location": "Bengaluru"
+    },
+    {
+      "transaction_id": "TXN1005",
+      "account_id": "ACC102",
+      "transaction_date": "2026-09-28 10:30:00",
+      "transaction_type": "Withdrawal",
+      "amount": 60000,
+      "balance": 15000,
+      "location": "Mumbai"
+    },
+    {
+      "transaction_id": "TXN1006",
+      "account_id": "ACC103",
+      "transaction_date": "2026-09-29 11:00:00",
+      "transaction_type": "Deposit",
+      "amount": 30000,
+      "balance": 30000,
+      "location": "Chennai"
+    },
+    {
+      "transaction_id": "TXN1007",
+      "account_id": "ACC103",
+      "transaction_date": "2026-09-29 11:05:00",
+      "transaction_type": "Withdrawal",
+      "amount": 25000,
+      "balance": 5000,
+      "location": "Chennai"
+    },
+    {
+      "transaction_id": "TXN1008",
+      "account_id": "ACC104",
+      "transaction_date": "2026-09-29 12:00:00",
+      "transaction_type": "Withdrawal",
+      "amount": -500,
+      "balance": 10000,
+      "location": "Delhi"
+    },
+    {
+      "transaction_id": "TXN1009",
+      "account_id": "ACC104",
+      "transaction_date": "invalid-date",
+      "transaction_type": "Deposit",
+      "amount": 10000,
+      "balance": 20000,
+      "location": "Delhi"
+    },
+    {
+      "transaction_id": "TXN1003",
+      "account_id": "ACC101",
+      "transaction_date": "2026-09-28 09:20:00",
+      "transaction_type": "Withdrawal",
+      "amount": 10000,
+      "balance": 35000,
+      "location": "Hyderabad"
+    }
+  ]

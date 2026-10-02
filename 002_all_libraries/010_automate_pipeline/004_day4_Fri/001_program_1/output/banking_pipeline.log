@@ -1,0 +1,12 @@
+2026-10-02 13:17:57,876 - INFO - Starting banking data extraction
+2026-10-02 13:17:57,877 - INFO - Extracted 10 transaction records
+2026-10-02 13:17:57,889 - INFO - Loading raw banking data into SQLite
+2026-10-02 13:17:57,951 - INFO - Loaded 10 raw transactions
+2026-10-02 13:17:57,951 - INFO - Starting SQL transformations
+2026-10-02 13:17:58,062 - INFO - SQL transformations completed
+2026-10-02 13:17:58,062 - INFO - Exporting banking pipeline results
+2026-10-02 13:17:58,067 - INFO - Exported 9 records to C:\Users\lenovo\Music\nanodegree\002_all_libraries\010_automate_pipeline\004_day4_Fri\001_program_1\output\clean_transactions.json
+2026-10-02 13:17:58,071 - INFO - Exported 3 records to C:\Users\lenovo\Music\nanodegree\002_all_libraries\010_automate_pipeline\004_day4_Fri\001_program_1\output\rejected_transactions.json
+2026-10-02 13:17:58,073 - INFO - Exported 4 records to C:\Users\lenovo\Music\nanodegree\002_all_libraries\010_automate_pipeline\004_day4_Fri\001_program_1\output\account_summary.json
+2026-10-02 13:17:58,075 - INFO - Exported 2 records to C:\Users\lenovo\Music\nanodegree\002_all_libraries\010_automate_pipeline\004_day4_Fri\001_program_1\output\monthly_summary.json
+2026-10-02 13:17:58,077 - INFO - Exported 4 records to C:\Users\lenovo\Music\nanodegree\002_all_libraries\010_automate_pipeline\004_day4_Fri\001_program_1\output\fraud_alerts.json

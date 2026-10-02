@@ -1,0 +1,16 @@
+[
+    {
+        "transaction_month": "2026-09",
+        "transaction_count": 8,
+        "active_accounts": 4,
+        "total_deposits": 155000.0,
+        "total_withdrawals": 99500.0
+    },
+    {
+        "transaction_month": "invalid",
+        "transaction_count": 1,
+        "active_accounts": 1,
+        "total_deposits": 10000.0,
+        "total_withdrawals": 0.0
+    }
+]

@@ -1,0 +1,35 @@
+[
+    {
+        "load_id": 8,
+        "transaction_id": "TXN1008",
+        "account_id": "ACC104",
+        "transaction_date": "2026-09-29 12:00:00",
+        "transaction_type": "Withdrawal",
+        "amount": "-500",
+        "balance": "10000",
+        "location": "Delhi",
+        "rejection_reason": "Amount must be greater than zero"
+    },
+    {
+        "load_id": 9,
+        "transaction_id": "TXN1009",
+        "account_id": "ACC104",
+        "transaction_date": "invalid-date",
+        "transaction_type": "Deposit",
+        "amount": "10000",
+        "balance": "20000",
+        "location": "Delhi",
+        "rejection_reason": "Invalid transaction_date"
+    },
+    {
+        "load_id": 10,
+        "transaction_id": "TXN1003",
+        "account_id": "ACC101",
+        "transaction_date": "2026-09-28 09:20:00",
+        "transaction_type": "Withdrawal",
+        "amount": "10000",
+        "balance": "35000",
+        "location": "Hyderabad",
+        "rejection_reason": "Duplicate transaction_id"
+    }
+]
