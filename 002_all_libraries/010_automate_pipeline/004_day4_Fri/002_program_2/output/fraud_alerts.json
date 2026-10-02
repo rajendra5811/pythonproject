@@ -1,0 +1,46 @@
+[
+    {
+        "transaction_id": "TXN1002",
+        "account_id": "ACC101",
+        "transaction_date": "2026-09-28 09:10:00",
+        "transaction_type": "Withdrawal",
+        "amount": 5000.0,
+        "balance": 45000.0,
+        "location": "Hyderabad",
+        "transaction_flag": "Review Location",
+        "alert_reason": "Rapid consecutive transaction"
+    },
+    {
+        "transaction_id": "TXN1003",
+        "account_id": "ACC101",
+        "transaction_date": "2026-09-28 09:20:00",
+        "transaction_type": "Withdrawal",
+        "amount": 10000.0,
+        "balance": 35000.0,
+        "location": "Hyderabad",
+        "transaction_flag": "Review Location",
+        "alert_reason": "Rapid consecutive transaction"
+    },
+    {
+        "transaction_id": "TXN1005",
+        "account_id": "ACC102",
+        "transaction_date": "2026-09-28 10:30:00",
+        "transaction_type": "Withdrawal",
+        "amount": 60000.0,
+        "balance": 15000.0,
+        "location": "Mumbai",
+        "transaction_flag": "High Value Withdrawal",
+        "alert_reason": "Large withdrawal"
+    },
+    {
+        "transaction_id": "TXN1007",
+        "account_id": "ACC103",
+        "transaction_date": "2026-09-29 11:05:00",
+        "transaction_type": "Withdrawal",
+        "amount": 25000.0,
+        "balance": 5000.0,
+        "location": "Chennai",
+        "transaction_flag": "Review Location",
+        "alert_reason": "Rapid consecutive transaction"
+    }
+]
