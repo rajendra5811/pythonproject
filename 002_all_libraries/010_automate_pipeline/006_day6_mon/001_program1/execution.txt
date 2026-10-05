@@ -1,0 +1,5 @@
+IoT pipeline completed successfully.
+Input readings: 7
+Valid readings: 4
+Rejected readings: 3
+Anomalies: 2
