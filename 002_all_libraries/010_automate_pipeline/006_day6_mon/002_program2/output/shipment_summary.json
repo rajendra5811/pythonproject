@@ -1,0 +1,41 @@
+[
+    {
+        "shipment_id": "SHIP001",
+        "event_count": 3,
+        "first_event_time": "2026-10-05 08:00:00",
+        "last_event_time": "2026-10-05 08:30:00",
+        "average_temperature": 7.4,
+        "minimum_temperature": 4.5,
+        "maximum_temperature": 9.2,
+        "average_humidity": 60.67,
+        "temperature_violation_count": 2,
+        "door_open_count": 1,
+        "shipment_status": "NON_COMPLIANT"
+    },
+    {
+        "shipment_id": "SHIP002",
+        "event_count": 2,
+        "first_event_time": "2026-10-05 09:00:00",
+        "last_event_time": "2026-10-05 09:20:00",
+        "average_temperature": 0.1,
+        "minimum_temperature": -3.0,
+        "maximum_temperature": 3.2,
+        "average_humidity": 54.5,
+        "temperature_violation_count": 1,
+        "door_open_count": 0,
+        "shipment_status": "NON_COMPLIANT"
+    },
+    {
+        "shipment_id": "SHIP003",
+        "event_count": 1,
+        "first_event_time": "2026-10-05 09:30:00",
+        "last_event_time": "2026-10-05 09:30:00",
+        "average_temperature": 5.0,
+        "minimum_temperature": 5.0,
+        "maximum_temperature": 5.0,
+        "average_humidity": 90.0,
+        "temperature_violation_count": 0,
+        "door_open_count": 0,
+        "shipment_status": "COMPLIANT"
+    }
+]

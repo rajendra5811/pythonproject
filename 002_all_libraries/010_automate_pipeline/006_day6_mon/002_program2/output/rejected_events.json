@@ -1,0 +1,17 @@
+[
+    {
+        "rejection_id": 1,
+        "event_id": "EVT003",
+        "shipment_id": "SHIP001",
+        "device_id": "SENSOR001",
+        "event_time": "2026-10-05 08:30:00",
+        "event_type": "Door",
+        "temperature": 9.2,
+        "humidity": 63.0,
+        "door_open": 1,
+        "battery_level": 90,
+        "location": "Hyderabad",
+        "rejection_reason": "Duplicate event_id",
+        "rejected_at": "2026-10-05T20:12:32"
+    }
+]

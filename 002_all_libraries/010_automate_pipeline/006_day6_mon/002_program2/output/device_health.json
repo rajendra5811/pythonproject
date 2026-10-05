@@ -1,0 +1,20 @@
+[
+    {
+        "device_id": "SENSOR001",
+        "last_seen_at": "2026-10-05 08:30:00",
+        "latest_battery_level": 92,
+        "device_status": "HEALTHY"
+    },
+    {
+        "device_id": "SENSOR002",
+        "last_seen_at": "2026-10-05 09:20:00",
+        "latest_battery_level": 75,
+        "device_status": "HEALTHY"
+    },
+    {
+        "device_id": "SENSOR003",
+        "last_seen_at": "2026-10-05 09:30:00",
+        "latest_battery_level": 18,
+        "device_status": "LOW_BATTERY"
+    }
+]

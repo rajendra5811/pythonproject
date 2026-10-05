@@ -1,0 +1,17 @@
+2026-10-05 20:10:40,143 - INFO - Starting cold-chain extraction
+2026-10-05 20:10:40,144 - ERROR - Pipeline failed: Input file not found: C:\Users\lenovo\Music\nanodegree\002_all_libraries\010_automate_pipeline\006_day6_mon\002_program2\data\cold_chain_events.json
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Music\nanodegree\002_all_libraries\010_automate_pipeline\006_day6_mon\002_program2\001_Cold_chain_pipeline.py", line 690, in run_pipeline
+    records = extract_events()
+  File "C:\Users\lenovo\Music\nanodegree\002_all_libraries\010_automate_pipeline\006_day6_mon\002_program2\001_Cold_chain_pipeline.py", line 68, in extract_events
+    raise FileNotFoundError(
+        f"Input file not found: {INPUT_FILE}"
+    )
+FileNotFoundError: Input file not found: C:\Users\lenovo\Music\nanodegree\002_all_libraries\010_automate_pipeline\006_day6_mon\002_program2\data\cold_chain_events.json
+2026-10-05 20:12:31,904 - INFO - Starting cold-chain extraction
+2026-10-05 20:12:31,905 - INFO - Extracted 7 events
+2026-10-05 20:12:31,906 - INFO - Starting event validation
+2026-10-05 20:12:31,930 - INFO - Valid events: 6
+2026-10-05 20:12:31,931 - INFO - Rejected events: 1
+2026-10-05 20:12:32,019 - INFO - Loaded 6 valid events
+2026-10-05 20:12:32,025 - INFO - Loaded 1 rejected events

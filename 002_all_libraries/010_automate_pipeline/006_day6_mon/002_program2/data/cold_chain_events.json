@@ -1,0 +1,86 @@
+[
+    {
+      "event_id": "EVT001",
+      "shipment_id": "SHIP001",
+      "device_id": "SENSOR001",
+      "event_time": "2026-10-05 08:00:00",
+      "event_type": "Temperature",
+      "temperature": 4.5,
+      "humidity": 58.0,
+      "door_open": 0,
+      "battery_level": 92,
+      "location": "Hyderabad"
+    },
+    {
+      "event_id": "EVT002",
+      "shipment_id": "SHIP001",
+      "device_id": "SENSOR001",
+      "event_time": "2026-10-05 08:15:00",
+      "event_type": "Temperature",
+      "temperature": 8.5,
+      "humidity": 61.0,
+      "door_open": 0,
+      "battery_level": 91,
+      "location": "Hyderabad"
+    },
+    {
+      "event_id": "EVT003",
+      "shipment_id": "SHIP001",
+      "device_id": "SENSOR001",
+      "event_time": "2026-10-05 08:30:00",
+      "event_type": "Door",
+      "temperature": 9.2,
+      "humidity": 63.0,
+      "door_open": 1,
+      "battery_level": 90,
+      "location": "Hyderabad"
+    },
+    {
+      "event_id": "EVT004",
+      "shipment_id": "SHIP002",
+      "device_id": "SENSOR002",
+      "event_time": "2026-10-05 09:00:00",
+      "event_type": "Temperature",
+      "temperature": 3.2,
+      "humidity": 55.0,
+      "door_open": 0,
+      "battery_level": 75,
+      "location": "Bengaluru"
+    },
+    {
+      "event_id": "EVT005",
+      "shipment_id": "SHIP002",
+      "device_id": "SENSOR002",
+      "event_time": "2026-10-05 09:20:00",
+      "event_type": "Temperature",
+      "temperature": -3.0,
+      "humidity": 54.0,
+      "door_open": 0,
+      "battery_level": 74,
+      "location": "Bengaluru"
+    },
+    {
+      "event_id": "EVT006",
+      "shipment_id": "SHIP003",
+      "device_id": "SENSOR003",
+      "event_time": "2026-10-05 09:30:00",
+      "event_type": "Temperature",
+      "temperature": 5.0,
+      "humidity": 90.0,
+      "door_open": 0,
+      "battery_level": 18,
+      "location": "Chennai"
+    },
+    {
+      "event_id": "EVT003",
+      "shipment_id": "SHIP001",
+      "device_id": "SENSOR001",
+      "event_time": "2026-10-05 08:30:00",
+      "event_type": "Door",
+      "temperature": 9.2,
+      "humidity": 63.0,
+      "door_open": 1,
+      "battery_level": 90,
+      "location": "Hyderabad"
+    }
+  ]

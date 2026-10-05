@@ -1,0 +1,50 @@
+[
+    {
+        "event_id": "EVT002",
+        "shipment_id": "SHIP001",
+        "device_id": "SENSOR001",
+        "event_time": "2026-10-05 08:15:00",
+        "temperature": 8.5,
+        "humidity": 61.0,
+        "door_open": 0,
+        "battery_level": 91,
+        "location": "Hyderabad",
+        "alert_type": "TOO_HOT"
+    },
+    {
+        "event_id": "EVT003",
+        "shipment_id": "SHIP001",
+        "device_id": "SENSOR001",
+        "event_time": "2026-10-05 08:30:00",
+        "temperature": 9.2,
+        "humidity": 63.0,
+        "door_open": 1,
+        "battery_level": 90,
+        "location": "Hyderabad",
+        "alert_type": "TOO_HOT"
+    },
+    {
+        "event_id": "EVT005",
+        "shipment_id": "SHIP002",
+        "device_id": "SENSOR002",
+        "event_time": "2026-10-05 09:20:00",
+        "temperature": -3.0,
+        "humidity": 54.0,
+        "door_open": 0,
+        "battery_level": 74,
+        "location": "Bengaluru",
+        "alert_type": "TOO_COLD"
+    },
+    {
+        "event_id": "EVT006",
+        "shipment_id": "SHIP003",
+        "device_id": "SENSOR003",
+        "event_time": "2026-10-05 09:30:00",
+        "temperature": 5.0,
+        "humidity": 90.0,
+        "door_open": 0,
+        "battery_level": 18,
+        "location": "Chennai",
+        "alert_type": "HIGH_HUMIDITY"
+    }
+]

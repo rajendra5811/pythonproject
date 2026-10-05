@@ -1,0 +1,6 @@
+Cold-chain pipeline completed successfully.
+Input events: 7
+Valid events: 6
+Rejected events: 1
+Alerts: 4
+Shipments: 3
