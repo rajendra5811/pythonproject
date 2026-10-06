@@ -1,0 +1,10 @@
+Loaded 4 raw records into Pandas.
+⚠️ Warning: Dropped 1 malformed record(s) with invalid MRNs.
+
+Pipeline complete! Successfully processed and saved to 'processed_healthcare_report.csv'.
+
+--- Final Clean Data Preview ---
+          mrn   patient_name  heart_rate triage_status
+0  MRN-102938  Alice Johnson          88        STABLE
+1  MRN-998877   Robert Davis         135      CRITICAL
+2  MRN-554433    Emily Clark          45      CRITICAL
