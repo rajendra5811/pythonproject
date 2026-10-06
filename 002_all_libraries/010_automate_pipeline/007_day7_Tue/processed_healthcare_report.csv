@@ -1,4 +1,0 @@
-mrn,patient_name,heart_rate,blood_pressure,weight_kg,height_m,triage_status,bmi
-MRN-102938,Alice Johnson,88,118/78,65.0,1.6800000000000002,STABLE,23.0
-MRN-998877,Robert Davis,135,155/95,92.4,1.75,CRITICAL,30.2
-MRN-554433,Emily Clark,45,90/60,54.0,1.6,CRITICAL,21.1
