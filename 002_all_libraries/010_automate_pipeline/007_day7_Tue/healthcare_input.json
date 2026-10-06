@@ -1,0 +1,34 @@
+[
+    {
+      "mrn": "MRN-102938",
+      "patient_name": "Alice Johnson",
+      "heart_rate": 88,
+      "blood_pressure": "118/78",
+      "weight_kg": 65.0,
+      "height_m": 1.68
+    },
+    {
+      "mrn": "MRN-998877",
+      "patient_name": "Robert Davis",
+      "heart_rate": 135,
+      "blood_pressure": "155/95",
+      "weight_kg": 92.4,
+      "height_m": 1.75
+    },
+    {
+      "mrn": "MRN-554433",
+      "patient_name": "Emily Clark",
+      "heart_rate": 45,
+      "blood_pressure": "90/60",
+      "weight_kg": 54.0,
+      "height_m": 1.60
+    },
+    {
+      "mrn": "BAD-MRN-FORMAT",
+      "patient_name": "Corrupted Record",
+      "heart_rate": 75,
+      "blood_pressure": "120/80",
+      "weight_kg": 70.0,
+      "height_m": 1.70
+    }
+  ]
