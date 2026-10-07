@@ -1,0 +1,16 @@
+{
+    "HYD-DEL": {
+        "record_count": 4,
+        "average_speed": 66.0,
+        "maximum_speed": 70.0,
+        "total_distance": 665.8,
+        "speed_variation": 2.92
+    },
+    "DEL-BLR": {
+        "record_count": 1,
+        "average_speed": 58.0,
+        "maximum_speed": 58.0,
+        "total_distance": 210.5,
+        "speed_variation": 0.0
+    }
+}

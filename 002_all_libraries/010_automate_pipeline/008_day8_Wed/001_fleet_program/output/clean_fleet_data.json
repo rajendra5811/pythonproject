@@ -1,0 +1,57 @@
+[
+    {
+        "vehicle_id": "V001",
+        "driver": "Raj Kumar",
+        "route": "HYD-DEL",
+        "latitude": 17.385,
+        "longitude": 78.4867,
+        "speed": 65.0,
+        "fuel_level": 72.5,
+        "distance": 145.6,
+        "timestamp": "2026-10-01T08:30:00"
+    },
+    {
+        "vehicle_id": "V001",
+        "driver": "Raj Kumar",
+        "route": "HYD-DEL",
+        "latitude": 17.4,
+        "longitude": 78.5,
+        "speed": 70.0,
+        "fuel_level": 68.2,
+        "distance": 152.4,
+        "timestamp": "2026-10-01T09:30:00"
+    },
+    {
+        "vehicle_id": "V002",
+        "driver": "Priya Sharma",
+        "route": "DEL-BLR",
+        "latitude": 28.6139,
+        "longitude": 77.209,
+        "speed": 58.0,
+        "fuel_level": 81.0,
+        "distance": 210.5,
+        "timestamp": "2026-10-01T08:00:00"
+    },
+    {
+        "vehicle_id": "V003",
+        "driver": "Arun Reddy",
+        "route": "HYD-DEL",
+        "latitude": 17.385,
+        "longitude": 78.4867,
+        "speed": 62.0,
+        "fuel_level": 65.0,
+        "distance": 180.0,
+        "timestamp": "2026-10-01T10:00:00"
+    },
+    {
+        "vehicle_id": "V003",
+        "driver": "Arun Reddy",
+        "route": "HYD-DEL",
+        "latitude": 17.39,
+        "longitude": 78.49,
+        "speed": 67.0,
+        "fuel_level": 60.5,
+        "distance": 187.8,
+        "timestamp": "2026-10-01T11:00:00"
+    }
+]

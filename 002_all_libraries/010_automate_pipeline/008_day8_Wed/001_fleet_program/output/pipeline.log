@@ -1,0 +1,12 @@
+2026-10-07 13:37:45,584 | INFO | ========== PIPELINE START ==========
+2026-10-07 13:37:45,584 | INFO | Operating system: nt
+2026-10-07 13:37:45,584 | INFO | Python version: 3.14.2
+2026-10-07 13:37:45,585 | INFO | Discovered 3 JSON files
+2026-10-07 13:37:45,585 | INFO | Reading file: vehicle_001.json
+2026-10-07 13:37:45,597 | INFO | Reading file: vehicle_002.json
+2026-10-07 13:37:45,598 | WARNING | Invalid record skipped: V002
+2026-10-07 13:37:45,598 | INFO | Reading file: vehicle_003.json
+2026-10-07 13:37:45,601 | INFO | Output written: C:\Users\lenovo\Music\nanodegree\002_all_libraries\010_automate_pipeline\008_day8_Wed\001_fleet_program\output\clean_fleet_data.json
+2026-10-07 13:37:45,603 | INFO | Output written: C:\Users\lenovo\Music\nanodegree\002_all_libraries\010_automate_pipeline\008_day8_Wed\001_fleet_program\output\route_summary.json
+2026-10-07 13:37:45,604 | INFO | Processed clean records: 5
+2026-10-07 13:37:45,604 | INFO | ========== PIPELINE SUCCESS ==========
