@@ -1,0 +1,24 @@
+[
+    {
+        "vehicle_id": "V003",
+        "driver": " arun reddy ",
+        "route": "hyd-del",
+        "latitude": 17.3850,
+        "longitude": 78.4867,
+        "speed": 62,
+        "fuel_level": 65.0,
+        "distance": 180.0,
+        "timestamp": "2026-10-01 10:00:00"
+    },
+    {
+        "vehicle_id": "V003",
+        "driver": " arun reddy ",
+        "route": "hyd-del",
+        "latitude": 17.3900,
+        "longitude": 78.4900,
+        "speed": 67,
+        "fuel_level": 60.5,
+        "distance": 187.8,
+        "timestamp": "2026-10-01 11:00:00"
+    }
+]

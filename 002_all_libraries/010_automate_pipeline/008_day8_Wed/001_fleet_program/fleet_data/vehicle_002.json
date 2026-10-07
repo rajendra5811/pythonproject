@@ -1,0 +1,24 @@
+[
+    {
+        "vehicle_id": "V002",
+        "driver": " priya sharma ",
+        "route": "DEL-BLR",
+        "latitude": 28.6139,
+        "longitude": 77.2090,
+        "speed": 58,
+        "fuel_level": 81.0,
+        "distance": 210.5,
+        "timestamp": "2026-10-01 08:00:00"
+    },
+    {
+        "vehicle_id": "V002",
+        "driver": " priya sharma ",
+        "route": "DEL-BLR",
+        "latitude": 28.6200,
+        "longitude": 77.2200,
+        "speed": -10,
+        "fuel_level": 75.0,
+        "distance": 215.2,
+        "timestamp": "2026-10-01 09:00:00"
+    }
+]

@@ -1,0 +1,24 @@
+[
+    {
+        "vehicle_id": "V001",
+        "driver": " raj kumar ",
+        "route": " hyd-del ",
+        "latitude": 17.3850,
+        "longitude": 78.4867,
+        "speed": 65,
+        "fuel_level": 72.5,
+        "distance": 145.6,
+        "timestamp": "2026-10-01 08:30:00"
+    },
+    {
+        "vehicle_id": "V001",
+        "driver": " raj kumar ",
+        "route": " hyd-del ",
+        "latitude": 17.4000,
+        "longitude": 78.5000,
+        "speed": 70,
+        "fuel_level": 68.2,
+        "distance": 152.4,
+        "timestamp": "2026-10-01 09:30:00"
+    }
+]
