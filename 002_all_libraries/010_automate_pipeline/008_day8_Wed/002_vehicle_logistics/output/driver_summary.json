@@ -1,0 +1,26 @@
+{
+    "DR101": {
+        "delivery_count": 1,
+        "total_distance_km": 145.6,
+        "average_delivery_time": 185.0,
+        "average_fuel_efficiency": 11.65
+    },
+    "DR102": {
+        "delivery_count": 1,
+        "total_distance_km": 210.4,
+        "average_delivery_time": 220.0,
+        "average_fuel_efficiency": 11.56
+    },
+    "DR103": {
+        "delivery_count": 1,
+        "total_distance_km": 175.8,
+        "average_delivery_time": 195.0,
+        "average_fuel_efficiency": 12.56
+    },
+    "DR105": {
+        "delivery_count": 1,
+        "total_distance_km": 195.5,
+        "average_delivery_time": 205.0,
+        "average_fuel_efficiency": 11.92
+    }
+}

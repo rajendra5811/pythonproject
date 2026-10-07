@@ -1,0 +1,47 @@
+2026-10-07 19:33:45,240 | INFO | ========== PIPELINE START ==========
+2026-10-07 19:33:45,241 | INFO | Operating system: nt
+2026-10-07 19:33:45,241 | INFO | Python version: 3.14.2
+2026-10-07 19:33:45,241 | ERROR | ========== PIPELINE FAILED ==========: Directory not found: C:\Users\lenovo\Music\nanodegree\002_all_libraries\010_automate_pipeline\008_day8_Wed\002_vehicle_logistics\delivery_data
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Music\nanodegree\002_all_libraries\010_automate_pipeline\008_day8_Wed\002_vehicle_logistics\delivery_pipeline.py", line 541, in run_pipeline
+    files = discover_files(
+        SOURCE_DIR
+    )
+  File "C:\Users\lenovo\Music\nanodegree\002_all_libraries\010_automate_pipeline\008_day8_Wed\002_vehicle_logistics\delivery_pipeline.py", line 197, in discover_files
+    raise FileNotFoundError(
+        f"Directory not found: {source_dir}"
+    )
+FileNotFoundError: Directory not found: C:\Users\lenovo\Music\nanodegree\002_all_libraries\010_automate_pipeline\008_day8_Wed\002_vehicle_logistics\delivery_data
+2026-10-07 19:34:30,696 | INFO | ========== PIPELINE START ==========
+2026-10-07 19:34:30,697 | INFO | Operating system: nt
+2026-10-07 19:34:30,698 | INFO | Python version: 3.14.2
+2026-10-07 19:34:30,698 | ERROR | ========== PIPELINE FAILED ==========: Directory not found: C:\Users\lenovo\Music\nanodegree\002_all_libraries\010_automate_pipeline\008_day8_Wed\002_vehicle_logistics\delivery_data
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Music\nanodegree\002_all_libraries\010_automate_pipeline\008_day8_Wed\002_vehicle_logistics\delivery_pipeline.py", line 541, in run_pipeline
+    files = discover_files(
+        SOURCE_DIR
+    )
+  File "C:\Users\lenovo\Music\nanodegree\002_all_libraries\010_automate_pipeline\008_day8_Wed\002_vehicle_logistics\delivery_pipeline.py", line 197, in discover_files
+    raise FileNotFoundError(
+        f"Directory not found: {source_dir}"
+    )
+FileNotFoundError: Directory not found: C:\Users\lenovo\Music\nanodegree\002_all_libraries\010_automate_pipeline\008_day8_Wed\002_vehicle_logistics\delivery_data
+2026-10-07 19:37:32,448 | INFO | ========== PIPELINE START ==========
+2026-10-07 19:37:32,449 | INFO | Operating system: nt
+2026-10-07 19:37:32,449 | INFO | Python version: 3.14.2
+2026-10-07 19:37:32,454 | INFO | Discovered 3 JSON files
+2026-10-07 19:37:32,454 | INFO | Reading file: delivery_001.json
+2026-10-07 19:37:32,455 | INFO | Reading file: delivery_002.json
+2026-10-07 19:37:32,457 | INFO | Reading file: delivery_003.json
+2026-10-07 19:37:32,458 | INFO | Reading file: delivery_001.json
+2026-10-07 19:37:32,512 | INFO | Reading file: delivery_002.json
+2026-10-07 19:37:32,513 | WARNING | Invalid delivery skipped: D1004
+2026-10-07 19:37:32,513 | INFO | Reading file: delivery_003.json
+2026-10-07 19:37:32,514 | WARNING | Invalid delivery skipped: D1006
+2026-10-07 19:37:32,519 | INFO | Output written: C:\Users\lenovo\Music\nanodegree\002_all_libraries\010_automate_pipeline\008_day8_Wed\002_vehicle_logistics\output\clean_deliveries.json
+2026-10-07 19:37:32,523 | INFO | Output written: C:\Users\lenovo\Music\nanodegree\002_all_libraries\010_automate_pipeline\008_day8_Wed\002_vehicle_logistics\output\delivery_summary.json
+2026-10-07 19:37:32,526 | INFO | Output written: C:\Users\lenovo\Music\nanodegree\002_all_libraries\010_automate_pipeline\008_day8_Wed\002_vehicle_logistics\output\driver_summary.json
+2026-10-07 19:37:32,527 | INFO | Input records: 6
+2026-10-07 19:37:32,528 | INFO | Clean records: 4
+2026-10-07 19:37:32,528 | INFO | Rejected records: 2
+2026-10-07 19:37:32,528 | INFO | ========== PIPELINE SUCCESS ==========

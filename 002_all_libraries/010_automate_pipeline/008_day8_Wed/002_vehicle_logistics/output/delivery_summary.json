@@ -1,0 +1,28 @@
+{
+    "routes": {
+        "HYD-DEL": {
+            "delivery_count": 2,
+            "average_delivery_time": 190.0,
+            "total_distance_km": 321.4,
+            "maximum_delivery_time": 195.0,
+            "minimum_delivery_time": 185.0
+        },
+        "DEL-BLR": {
+            "delivery_count": 2,
+            "average_delivery_time": 212.5,
+            "total_distance_km": 405.9,
+            "maximum_delivery_time": 220.0,
+            "minimum_delivery_time": 205.0
+        }
+    },
+    "cities": {
+        "HYD": 2,
+        "DEL": 2
+    },
+    "quality": {
+        "input_records": 6,
+        "clean_records": 4,
+        "rejected_records": 2,
+        "rejection_rate_percent": 33.33
+    }
+}

@@ -1,0 +1,28 @@
+[
+    {
+        "delivery_id": "D1003",
+        "driver_id": "DR103",
+        "vehicle_id": "VH203",
+        "customer": "  Arun Reddy",
+        "city": "Hyd",
+        "route": "HYD-DEL",
+        "distance_km": 175.8,
+        "delivery_time_minutes": 195,
+        "fuel_used_litres": 14.0,
+        "status": "delivered",
+        "delivery_date": "2026-10-07 11:15:00"
+    },
+    {
+        "delivery_id": "D1004",
+        "driver_id": "DR104",
+        "vehicle_id": "VH204",
+        "customer": " Meena Rao ",
+        "city": "blr",
+        "route": " blr-hyd ",
+        "distance_km": -50,
+        "delivery_time_minutes": 160,
+        "fuel_used_litres": 10.5,
+        "status": "delivered",
+        "delivery_date": "2026-10-07 12:00:00"
+    }
+]

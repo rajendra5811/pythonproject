@@ -1,0 +1,28 @@
+[
+    {
+        "delivery_id": "D1005",
+        "driver_id": "DR105",
+        "vehicle_id": "VH205",
+        "customer": "  Suresh Kumar ",
+        "city": "DEL",
+        "route": "DEL-BLR",
+        "distance_km": 195.5,
+        "delivery_time_minutes": 205,
+        "fuel_used_litres": 16.4,
+        "status": "delivered",
+        "delivery_date": "2026-10-07 13:20:00"
+    },
+    {
+        "delivery_id": "D1006",
+        "driver_id": "DR106",
+        "vehicle_id": "VH206",
+        "customer": " Anita Singh ",
+        "city": "hyd",
+        "route": "HYD-DEL",
+        "distance_km": 160.2,
+        "delivery_time_minutes": 190,
+        "fuel_used_litres": null,
+        "status": "delivered",
+        "delivery_date": "bad-date"
+    }
+]

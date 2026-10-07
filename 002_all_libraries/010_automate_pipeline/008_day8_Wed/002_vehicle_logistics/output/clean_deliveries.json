@@ -1,0 +1,58 @@
+[
+    {
+        "delivery_id": "D1001",
+        "driver_id": "DR101",
+        "vehicle_id": "VH201",
+        "customer": "Raj Kumar",
+        "city": "HYD",
+        "route": "HYD-DEL",
+        "distance_km": 145.6,
+        "delivery_time_minutes": 185.0,
+        "fuel_used_litres": 12.5,
+        "status": "delivered",
+        "delivery_date": "2026-10-07T09:30:00",
+        "fuel_efficiency": 11.65
+    },
+    {
+        "delivery_id": "D1002",
+        "driver_id": "DR102",
+        "vehicle_id": "VH202",
+        "customer": "Priya Sharma",
+        "city": "DEL",
+        "route": "DEL-BLR",
+        "distance_km": 210.4,
+        "delivery_time_minutes": 220.0,
+        "fuel_used_litres": 18.2,
+        "status": "delivered",
+        "delivery_date": "2026-10-07T10:00:00",
+        "fuel_efficiency": 11.56
+    },
+    {
+        "delivery_id": "D1003",
+        "driver_id": "DR103",
+        "vehicle_id": "VH203",
+        "customer": "Arun Reddy",
+        "city": "HYD",
+        "route": "HYD-DEL",
+        "distance_km": 175.8,
+        "delivery_time_minutes": 195.0,
+        "fuel_used_litres": 14.0,
+        "status": "delivered",
+        "delivery_date": "2026-10-07T11:15:00",
+        "fuel_efficiency": 12.56
+    },
+    {
+        "delivery_id": "D1005",
+        "driver_id": "DR105",
+        "vehicle_id": "VH205",
+        "customer": "Suresh Kumar",
+        "city": "DEL",
+        "route": "DEL-BLR",
+        "distance_km": 195.5,
+        "delivery_time_minutes": 205.0,
+        "fuel_used_litres": 16.4,
+        "status": "delivered",
+        "delivery_date": "2026-10-07T13:20:00",
+        "fuel_efficiency": 11.92
+    }
+]
