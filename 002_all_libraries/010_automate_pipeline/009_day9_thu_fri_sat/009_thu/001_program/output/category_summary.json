@@ -1,0 +1,12 @@
+{
+    "technology": {
+        "video_count": 2,
+        "total_views": 37000,
+        "average_views": 18500.0
+    },
+    "education": {
+        "video_count": 2,
+        "total_views": 36000,
+        "average_views": 18000.0
+    }
+}

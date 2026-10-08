@@ -1,0 +1,17 @@
+{
+    "Rajendra": {
+        "video_count": 1,
+        "total_views": 15000,
+        "average_duration": 25.0
+    },
+    "Anita": {
+        "video_count": 1,
+        "total_views": 22000,
+        "average_duration": 35.0
+    },
+    "John Smith": {
+        "video_count": 2,
+        "total_views": 36000,
+        "average_duration": 40.0
+    }
+}

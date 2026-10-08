@@ -1,0 +1,22 @@
+2026-10-08 12:19:42,321 | INFO | MEDIA PIPELINE STARTED
+2026-10-08 12:19:42,322 | INFO | Operating system: nt
+2026-10-08 12:19:42,322 | INFO | Python version: 3.14.2 (tags/v3.14.2:df79316, Dec  5 2025, 17:18:21) [MSC v.1944 64 bit (AMD64)]
+2026-10-08 12:19:42,323 | INFO | Discovered 3 content files
+2026-10-08 12:19:42,340 | WARNING | Rejected record from vedio_002.json
+2026-10-08 12:19:42,341 | WARNING | Rejected record from vedio_003.json
+2026-10-08 12:19:47,939 | INFO | HTTP Request: GET https://restcountries.com/v3.1/alpha/IN "HTTP/1.1 301 Moved Permanently"
+2026-10-08 12:19:47,946 | WARNING | Country API failed for IN: Redirect response '301 Moved Permanently' for url 'https://restcountries.com/v3.1/alpha/IN'
+Redirect location: 'https://files-03.restcountries.com/countries.00/legacy.json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/301
+2026-10-08 12:19:47,949 | INFO | HTTP Request: GET https://restcountries.com/v3.1/alpha/US "HTTP/1.1 301 Moved Permanently"
+2026-10-08 12:19:47,954 | WARNING | Country API failed for US: Redirect response '301 Moved Permanently' for url 'https://restcountries.com/v3.1/alpha/US'
+Redirect location: 'https://files-03.restcountries.com/countries.00/legacy.json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/301
+2026-10-08 12:19:47,959 | INFO | HTTP Request: GET https://restcountries.com/v3.1/alpha/GB "HTTP/1.1 301 Moved Permanently"
+2026-10-08 12:19:47,964 | WARNING | Country API failed for GB: Redirect response '301 Moved Permanently' for url 'https://restcountries.com/v3.1/alpha/GB'
+Redirect location: 'https://files-03.restcountries.com/countries.00/legacy.json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/301
+2026-10-08 12:19:47,978 | INFO | Input records: 6
+2026-10-08 12:19:47,978 | INFO | Clean records: 4
+2026-10-08 12:19:47,978 | INFO | Rejected records: 2
+2026-10-08 12:19:47,978 | INFO | MEDIA PIPELINE COMPLETED SUCCESSFULLY
