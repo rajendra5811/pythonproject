@@ -1,0 +1,12 @@
+{
+    "total_views": 3000,
+    "views_by_user": {
+        "Raj": 1000,
+        "Anita": 2000
+    },
+    "top_hashtags": {
+        "python": 2,
+        "data": 1,
+        "cloud": 1
+    }
+}
