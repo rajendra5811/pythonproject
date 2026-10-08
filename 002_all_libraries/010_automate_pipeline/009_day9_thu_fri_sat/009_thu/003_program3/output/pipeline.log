@@ -1,0 +1,35 @@
+2026-10-08 22:07:52,399 | INFO | TIKTOK STREAMING PIPELINE STARTED
+2026-10-08 22:07:52,399 | INFO | Operating system: nt
+2026-10-08 22:07:52,400 | INFO | Python version: 3.14.2 (tags/v3.14.2:df79316, Dec  5 2025, 17:18:21) [MSC v.1944 64 bit (AMD64)]
+2026-10-08 22:07:52,401 | INFO | Discovered 1 stream files
+2026-10-08 22:07:52,401 | ERROR | TIKTOK PIPELINE FAILED: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Music\nanodegree\002_all_libraries\010_automate_pipeline\009_day9_thu_fri_sat\009_thu\003_program\tiktok_streaming_pipeline.py", line 566, in run_pipeline
+    events = read_events(
+        file_path
+    )
+  File "C:\Users\lenovo\Music\nanodegree\002_all_libraries\010_automate_pipeline\009_day9_thu_fri_sat\009_thu\003_program\tiktok_streaming_pipeline.py", line 228, in read_events
+    return json.load(file)
+           ~~~~~~~~~^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python314\Lib\json\__init__.py", line 298, in load
+    return loads(fp.read(),
+        cls=cls, object_hook=object_hook,
+        parse_float=parse_float, parse_int=parse_int,
+        parse_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python314\Lib\json\__init__.py", line 352, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python314\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python314\Lib\json\decoder.py", line 363, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2026-10-08 22:16:57,619 | INFO | TIKTOK STREAMING PIPELINE STARTED
+2026-10-08 22:16:57,620 | INFO | Operating system: nt
+2026-10-08 22:16:57,620 | INFO | Python version: 3.14.2 (tags/v3.14.2:df79316, Dec  5 2025, 17:18:21) [MSC v.1944 64 bit (AMD64)]
+2026-10-08 22:16:57,621 | INFO | Discovered 0 stream files
+2026-10-08 22:16:59,921 | INFO | Input events: 0
+2026-10-08 22:16:59,922 | INFO | Clean events: 0
+2026-10-08 22:16:59,922 | INFO | Rejected events: 0
+2026-10-08 22:16:59,922 | INFO | TIKTOK STREAMING PIPELINE COMPLETED

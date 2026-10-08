@@ -1,0 +1,68 @@
+[
+    {
+        "event_id": "E001",
+        "video_id": "V101",
+        "creator": "  Raj  ",
+        "category": "technology",
+        "event_type": "view",
+        "watch_seconds": 18,
+        "video_duration": 30,
+        "timestamp": "2026-10-08 09:15:00",
+        "country": "IN"
+    },
+    {
+        "event_id": "E002",
+        "video_id": "V101",
+        "creator": "Raj",
+        "category": "Technology",
+        "event_type": "like",
+        "watch_seconds": 25,
+        "video_duration": 30,
+        "timestamp": "2026-10-08 09:16:00",
+        "country": "IN"
+    },
+    {
+        "event_id": "E003",
+        "video_id": "V102",
+        "creator": "  Priya Sharma ",
+        "category": "education",
+        "event_type": "view",
+        "watch_seconds": 42,
+        "video_duration": 45,
+        "timestamp": "2026-10-08 09:18:00",
+        "country": "IN"
+    },
+    {
+        "event_id": "E004",
+        "video_id": "V103",
+        "creator": "John",
+        "category": "entertainment",
+        "event_type": "share",
+        "watch_seconds": 12,
+        "video_duration": 60,
+        "timestamp": "2026-10-08 09:20:00",
+        "country": "US"
+    },
+    {
+        "event_id": "E005",
+        "video_id": "V104",
+        "creator": "Anita",
+        "category": "technology",
+        "event_type": "view",
+        "watch_seconds": -5,
+        "video_duration": 40,
+        "timestamp": "bad-date",
+        "country": "IN"
+    },
+    {
+        "event_id": "E006",
+        "video_id": "V102",
+        "creator": "Priya Sharma",
+        "category": "Education",
+        "event_type": "comment",
+        "watch_seconds": 40,
+        "video_duration": 45,
+        "timestamp": "2026-10-08 09:22:00",
+        "country": "IN"
+    }
+]
