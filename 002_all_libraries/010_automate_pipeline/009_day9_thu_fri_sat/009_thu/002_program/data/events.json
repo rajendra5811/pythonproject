@@ -1,0 +1,23 @@
+[
+    {
+        "user": "  Raj  ",
+        "video": "V101",
+        "views": 1000,
+        "likes": 120,
+        "hashtags": ["#python", "#data"]
+    },
+    {
+        "user": "Anita",
+        "video": "V102",
+        "views": 2000,
+        "likes": 250,
+        "hashtags": ["#python", "#cloud"]
+    },
+    {
+        "user": "  John ",
+        "video": "V103",
+        "views": -500,
+        "likes": 50,
+        "hashtags": ["#data"]
+    }
+]
