@@ -1,0 +1,80 @@
+2026-10-09 12:47:36,222 | INFO | CLIMATE RESEARCH PIPELINE STARTED
+2026-10-09 12:47:36,222 | INFO | OS: nt
+2026-10-09 12:47:36,223 | INFO | Python: 3.14.2 (tags/v3.14.2:df79316, Dec  5 2025, 17:18:21) [MSC v.1944 64 bit (AMD64)]
+2026-10-09 12:47:36,231 | WARNING | Rejected reading: R004
+2026-10-09 12:47:38,290 | INFO | HTTP Request: GET https://restcountries.com/v3.1/alpha/US "HTTP/1.1 301 Moved Permanently"
+2026-10-09 12:47:38,293 | WARNING | Country lookup failed for US: Redirect response '301 Moved Permanently' for url 'https://restcountries.com/v3.1/alpha/US'
+Redirect location: 'https://files-03.restcountries.com/countries.00/legacy.json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/301
+2026-10-09 12:47:38,296 | INFO | HTTP Request: GET https://restcountries.com/v3.1/alpha/GB "HTTP/1.1 301 Moved Permanently"
+2026-10-09 12:47:38,299 | WARNING | Country lookup failed for GB: Redirect response '301 Moved Permanently' for url 'https://restcountries.com/v3.1/alpha/GB'
+Redirect location: 'https://files-03.restcountries.com/countries.00/legacy.json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/301
+2026-10-09 12:47:38,307 | INFO | HTTP Request: GET https://restcountries.com/v3.1/alpha/IN "HTTP/1.1 301 Moved Permanently"
+2026-10-09 12:47:38,309 | WARNING | Country lookup failed for IN: Redirect response '301 Moved Permanently' for url 'https://restcountries.com/v3.1/alpha/IN'
+Redirect location: 'https://files-03.restcountries.com/countries.00/legacy.json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/301
+2026-10-09 12:47:38,343 | INFO | Saved 5 records to database
+2026-10-09 12:47:38,391 | INFO | Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-09 12:47:39,937 | ERROR | S3 upload failed: Failed to upload C:\Users\lenovo\Music\nanodegree\002_all_libraries\010_automate_pipeline\009_day9_thu_fri_sat\010_fri\001_program\output\clean_climate_data.json to your-climate-bucket/climate/clean_climate_data.json: An error occurred (NoSuchBucket) when calling the PutObject operation: The specified bucket does not exist
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Music\nanodegree\002_all_libraries\010_automate_pipeline\009_day9_thu_fri_sat\010_fri\001_program\.venv\Lib\site-packages\boto3\s3\transfer.py", line 452, in upload_file
+    future.result()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\Music\nanodegree\002_all_libraries\010_automate_pipeline\009_day9_thu_fri_sat\010_fri\001_program\.venv\Lib\site-packages\s3transfer\futures.py", line 111, in result
+    return self._coordinator.result()
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\Music\nanodegree\002_all_libraries\010_automate_pipeline\009_day9_thu_fri_sat\010_fri\001_program\.venv\Lib\site-packages\s3transfer\futures.py", line 287, in result
+    raise self._exception
+  File "C:\Users\lenovo\Music\nanodegree\002_all_libraries\010_automate_pipeline\009_day9_thu_fri_sat\010_fri\001_program\.venv\Lib\site-packages\s3transfer\tasks.py", line 142, in __call__
+    return self._execute_main(kwargs)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Music\nanodegree\002_all_libraries\010_automate_pipeline\009_day9_thu_fri_sat\010_fri\001_program\.venv\Lib\site-packages\s3transfer\tasks.py", line 165, in _execute_main
+    return_value = self._main(**kwargs)
+  File "C:\Users\lenovo\Music\nanodegree\002_all_libraries\010_automate_pipeline\009_day9_thu_fri_sat\010_fri\001_program\.venv\Lib\site-packages\s3transfer\upload.py", line 796, in _main
+    client.put_object(Bucket=bucket, Key=key, Body=body, **extra_args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Music\nanodegree\002_all_libraries\010_automate_pipeline\009_day9_thu_fri_sat\010_fri\001_program\.venv\Lib\site-packages\botocore\client.py", line 606, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Music\nanodegree\002_all_libraries\010_automate_pipeline\009_day9_thu_fri_sat\010_fri\001_program\.venv\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\lenovo\Music\nanodegree\002_all_libraries\010_automate_pipeline\009_day9_thu_fri_sat\010_fri\001_program\.venv\Lib\site-packages\botocore\client.py", line 1094, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.NoSuchBucket: An error occurred (NoSuchBucket) when calling the PutObject operation: The specified bucket does not exist
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Music\nanodegree\002_all_libraries\010_automate_pipeline\009_day9_thu_fri_sat\010_fri\001_program\climate_pipeline.py", line 587, in upload_to_s3
+    s3.upload_file(
+    ~~~~~~~~~~~~~~^
+        str(file_path),
+        ^^^^^^^^^^^^^^^
+        AWS_BUCKET,
+        ^^^^^^^^^^^
+        S3_OUTPUT_KEY
+        ^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\lenovo\Music\nanodegree\002_all_libraries\010_automate_pipeline\009_day9_thu_fri_sat\010_fri\001_program\.venv\Lib\site-packages\botocore\context.py", line 123, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\lenovo\Music\nanodegree\002_all_libraries\010_automate_pipeline\009_day9_thu_fri_sat\010_fri\001_program\.venv\Lib\site-packages\boto3\s3\inject.py", line 175, in upload_file
+    return transfer.upload_file(
+           ~~~~~~~~~~~~~~~~~~~~^
+        filename=Filename,
+        ^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        callback=Callback,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\lenovo\Music\nanodegree\002_all_libraries\010_automate_pipeline\009_day9_thu_fri_sat\010_fri\001_program\.venv\Lib\site-packages\boto3\s3\transfer.py", line 458, in upload_file
+    raise S3UploadFailedError(
+        f"Failed to upload {filename} to {bucket}/{key}: {e}"
+    )
+boto3.exceptions.S3UploadFailedError: Failed to upload C:\Users\lenovo\Music\nanodegree\002_all_libraries\010_automate_pipeline\009_day9_thu_fri_sat\010_fri\001_program\output\clean_climate_data.json to your-climate-bucket/climate/clean_climate_data.json: An error occurred (NoSuchBucket) when calling the PutObject operation: The specified bucket does not exist
+2026-10-09 12:47:39,948 | INFO | Input records: 6
+2026-10-09 12:47:39,948 | INFO | Clean records: 5
+2026-10-09 12:47:39,948 | INFO | Rejected records: 1
+2026-10-09 12:47:39,949 | INFO | CLIMATE RESEARCH PIPELINE COMPLETED SUCCESSFULLY
