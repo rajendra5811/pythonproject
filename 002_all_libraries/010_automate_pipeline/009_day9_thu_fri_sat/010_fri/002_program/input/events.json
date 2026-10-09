@@ -1,0 +1,17 @@
+[
+    {
+      "user": "U1",
+      "movie_id": "M1",
+      "watch_minutes": 30
+    },
+    {
+      "user": "U2",
+      "movie_id": "M1",
+      "watch_minutes": 20
+    },
+    {
+      "user": "U3",
+      "movie_id": "M2",
+      "watch_minutes": 40
+    }
+  ]

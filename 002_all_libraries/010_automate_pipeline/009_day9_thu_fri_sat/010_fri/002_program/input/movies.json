@@ -1,38 +1,12 @@
 [
     {
-        "movie_id": "M001",
-        "title": "The Last Horizon",
-        "genre": " Science Fiction ",
-        "country": "US",
-        "release_year": 2024,
-        "duration_minutes": 128,
-        "rating": 8.4
+      "movie_id": "M1",
+      "title": "Avatar",
+      "genre": "Sci-Fi"
     },
     {
-        "movie_id": "M002",
-        "title": "Mumbai Stories",
-        "genre": "Drama",
-        "country": "IN",
-        "release_year": 2023,
-        "duration_minutes": 115,
-        "rating": 8.1
-    },
-    {
-        "movie_id": "M003",
-        "title": "Code Runner",
-        "genre": "Technology",
-        "country": "IN",
-        "release_year": 2025,
-        "duration_minutes": 105,
-        "rating": 7.8
-    },
-    {
-        "movie_id": "M004",
-        "title": "Ocean World",
-        "genre": "Documentary",
-        "country": "GB",
-        "release_year": 2022,
-        "duration_minutes": 90,
-        "rating": 9.0
+      "movie_id": "M2",
+      "title": "Dangal",
+      "genre": "Drama"
     }
-]
+  ]
