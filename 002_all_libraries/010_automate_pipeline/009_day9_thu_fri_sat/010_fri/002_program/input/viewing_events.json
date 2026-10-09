@@ -1,0 +1,47 @@
+[
+    {
+        "event_id": "E001",
+        "user_id": "U101",
+        "movie_id": "M001",
+        "event_type": "play",
+        "watch_seconds": 120,
+        "timestamp": "2026-10-09 18:00:01",
+        "country": "IN"
+    },
+    {
+        "event_id": "E002",
+        "user_id": "U102",
+        "movie_id": "M001",
+        "event_type": "play",
+        "watch_seconds": 300,
+        "timestamp": "2026-10-09 18:00:03",
+        "country": "US"
+    },
+    {
+        "event_id": "E003",
+        "user_id": "U103",
+        "movie_id": "M002",
+        "event_type": "play",
+        "watch_seconds": 600,
+        "timestamp": "2026-10-09 18:00:05",
+        "country": "IN"
+    },
+    {
+        "event_id": "E004",
+        "user_id": "U104",
+        "movie_id": "M003",
+        "event_type": "pause",
+        "watch_seconds": 80,
+        "timestamp": "2026-10-09 18:00:07",
+        "country": "IN"
+    },
+    {
+        "event_id": "E005",
+        "user_id": "U105",
+        "movie_id": "M999",
+        "event_type": "play",
+        "watch_seconds": 100,
+        "timestamp": "bad-date",
+        "country": "IN"
+    }
+]
