@@ -1,0 +1,17 @@
+[
+    {
+      "post_id": "P1",
+      "creator": "Raj",
+      "category": "Tech"
+    },
+    {
+      "post_id": "P2",
+      "creator": "Alice",
+      "category": "Travel"
+    },
+    {
+      "post_id": "P3",
+      "creator": "Sam",
+      "category": "Food"
+    }
+  ]

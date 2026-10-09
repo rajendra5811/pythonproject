@@ -1,0 +1,27 @@
+[
+    {
+      "user_id": "U1",
+      "post_id": "P1",
+      "event": "like"
+    },
+    {
+      "user_id": "U2",
+      "post_id": "P1",
+      "event": "comment"
+    },
+    {
+      "user_id": "U3",
+      "post_id": "P2",
+      "event": "like"
+    },
+    {
+      "user_id": "U4",
+      "post_id": "P1",
+      "event": "share"
+    },
+    {
+      "user_id": "U5",
+      "post_id": "P999",
+      "event": "like"
+    }
+  ]
