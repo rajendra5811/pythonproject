@@ -1,0 +1,17 @@
+[
+    {
+      "symbol": "AAPL",
+      "company": "Apple",
+      "sector": "Technology"
+    },
+    {
+      "symbol": "TSLA",
+      "company": "Tesla",
+      "sector": "Automotive"
+    },
+    {
+      "symbol": "NVDA",
+      "company": "Nvidia",
+      "sector": "Technology"
+    }
+  ]

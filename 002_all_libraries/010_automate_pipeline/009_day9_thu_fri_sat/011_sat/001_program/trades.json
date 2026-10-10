@@ -1,0 +1,32 @@
+[
+    {
+      "trade_id": "T1",
+      "symbol": "AAPL",
+      "price": 250,
+      "quantity": 10
+    },
+    {
+      "trade_id": "T2",
+      "symbol": "AAPL",
+      "price": 252,
+      "quantity": 5
+    },
+    {
+      "trade_id": "T3",
+      "symbol": "TSLA",
+      "price": 450,
+      "quantity": 8
+    },
+    {
+      "trade_id": "T4",
+      "symbol": "NVDA",
+      "price": 180,
+      "quantity": 20
+    },
+    {
+      "trade_id": "T5",
+      "symbol": "XXXX",
+      "price": 100,
+      "quantity": 5
+    }
+  ]

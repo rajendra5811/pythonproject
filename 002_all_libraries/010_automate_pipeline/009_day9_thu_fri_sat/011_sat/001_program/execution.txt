@@ -1,0 +1,3 @@
+Apple | Technology | {'trades': 2, 'quantity': 15, 'value': 3760}
+Tesla | Automotive | {'trades': 1, 'quantity': 8, 'value': 3600}
+Nvidia | Technology | {'trades': 1, 'quantity': 20, 'value': 3600}
