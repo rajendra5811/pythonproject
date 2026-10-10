@@ -1,0 +1,26 @@
+[
+    {
+      "trade_id": "T1",
+      "pair": "EURUSD",
+      "side": "BUY",
+      "amount": 1000
+    },
+    {
+      "trade_id": "T2",
+      "pair": "GBPUSD",
+      "side": "SELL",
+      "amount": 500
+    },
+    {
+      "trade_id": "T3",
+      "pair": "INRUSD",
+      "side": "BUY",
+      "amount": 100000
+    },
+    {
+      "trade_id": "T4",
+      "pair": "XYZUSD",
+      "side": "BUY",
+      "amount": 2000
+    }
+  ]

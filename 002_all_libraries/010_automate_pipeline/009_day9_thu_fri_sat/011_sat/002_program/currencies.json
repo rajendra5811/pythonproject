@@ -1,0 +1,18 @@
+[
+  {
+    "currency": "USD",
+    "country": "United States"
+  },
+  {
+    "currency": "EUR",
+    "country": "Eurozone"
+  },
+  {
+    "currency": "INR",
+    "country": "India"
+  },
+  {
+    "currency": "GBP",
+    "country": "United Kingdom"
+  }
+]

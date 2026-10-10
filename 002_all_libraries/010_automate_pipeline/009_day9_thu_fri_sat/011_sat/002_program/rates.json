@@ -1,0 +1,14 @@
+[
+    {
+      "pair": "EURUSD",
+      "rate": 1.08
+    },
+    {
+      "pair": "GBPUSD",
+      "rate": 1.25
+    },
+    {
+      "pair": "INRUSD",
+      "rate": 0.012
+    }
+  ]
