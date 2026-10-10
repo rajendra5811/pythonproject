@@ -1,0 +1,18 @@
+[
+    {
+      "event_id": "E1",
+      "customer_id": "C101",
+      "tower_id": "T1",
+      "type": "DATA",
+      "usage_mb": 500,
+      "timestamp": "2026-10-10 10:00:00"
+    },
+    {
+      "event_id": "E2",
+      "customer_id": "C102",
+      "tower_id": "T1",
+      "type": "CALL",
+      "usage_mb": 20,
+      "timestamp": "2026-10-10 10:05:00"
+    }
+  ]
