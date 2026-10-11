@@ -1,0 +1,7 @@
+2026-10-11 12:21:55,225 - INFO - Extracting CDRs
+2026-10-11 12:21:55,227 - INFO - Extracted 8 records
+2026-10-11 12:21:55,227 - INFO - Validating CDRs
+2026-10-11 12:21:55,240 - INFO - Valid records: 5
+2026-10-11 12:21:55,240 - INFO - Rejected records: 3
+2026-10-11 12:21:55,300 - INFO - Loaded 5 CDRs
+2026-10-11 12:21:55,300 - INFO - Creating network report

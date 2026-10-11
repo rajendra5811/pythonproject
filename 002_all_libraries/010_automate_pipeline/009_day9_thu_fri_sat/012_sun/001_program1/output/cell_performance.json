@@ -1,0 +1,32 @@
+[
+    {
+        "cell_id": "CELL001",
+        "total_cdrs": 2,
+        "voice_calls": 2,
+        "dropped_calls": 1,
+        "call_drop_rate_percentage": 100.0,
+        "average_latency_ms": 62.5,
+        "total_data_volume_mb": 0.0,
+        "total_revenue": 12.0
+    },
+    {
+        "cell_id": "CELL002",
+        "total_cdrs": 2,
+        "voice_calls": 0,
+        "dropped_calls": 0,
+        "call_drop_rate_percentage": 0.0,
+        "average_latency_ms": 155.0,
+        "total_data_volume_mb": 250.5,
+        "total_revenue": 25.0
+    },
+    {
+        "cell_id": "CELL003",
+        "total_cdrs": 1,
+        "voice_calls": 0,
+        "dropped_calls": 0,
+        "call_drop_rate_percentage": 0.0,
+        "average_latency_ms": 30.0,
+        "total_data_volume_mb": 0.0,
+        "total_revenue": 1.0
+    }
+]

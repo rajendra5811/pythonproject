@@ -1,0 +1,98 @@
+[
+    {
+      "cdr_id": "CDR1001",
+      "msisdn": "919876543210",
+      "cell_id": "CELL001",
+      "event_time": "2026-10-11 09:00:00",
+      "call_type": "Voice",
+      "call_status": "Completed",
+      "duration_seconds": 180,
+      "data_volume_mb": 0,
+      "latency_ms": 45,
+      "charge_amount": 10.0
+    },
+    {
+      "cdr_id": "CDR1002",
+      "msisdn": "919876543211",
+      "cell_id": "CELL001",
+      "event_time": "2026-10-11 09:05:00",
+      "call_type": "Voice",
+      "call_status": "Dropped",
+      "duration_seconds": 45,
+      "data_volume_mb": 0,
+      "latency_ms": 80,
+      "charge_amount": 2.0
+    },
+    {
+      "cdr_id": "CDR1003",
+      "msisdn": "919876543212",
+      "cell_id": "CELL002",
+      "event_time": "2026-10-11 09:10:00",
+      "call_type": "Data",
+      "call_status": "Completed",
+      "duration_seconds": 0,
+      "data_volume_mb": 250.5,
+      "latency_ms": 60,
+      "charge_amount": 25.0
+    },
+    {
+      "cdr_id": "CDR1004",
+      "msisdn": "919876543213",
+      "cell_id": "CELL002",
+      "event_time": "2026-10-11 09:15:00",
+      "call_type": "Data",
+      "call_status": "Failed",
+      "duration_seconds": 0,
+      "data_volume_mb": 0,
+      "latency_ms": 250,
+      "charge_amount": 0.0
+    },
+    {
+      "cdr_id": "CDR1005",
+      "msisdn": "919876543214",
+      "cell_id": "CELL003",
+      "event_time": "2026-10-11 09:20:00",
+      "call_type": "SMS",
+      "call_status": "Completed",
+      "duration_seconds": 0,
+      "data_volume_mb": 0,
+      "latency_ms": 30,
+      "charge_amount": 1.0
+    },
+    {
+      "cdr_id": "CDR1006",
+      "msisdn": "919876543215",
+      "cell_id": "CELL003",
+      "event_time": "invalid-date",
+      "call_type": "Voice",
+      "call_status": "Completed",
+      "duration_seconds": 60,
+      "data_volume_mb": 0,
+      "latency_ms": 50,
+      "charge_amount": 5.0
+    },
+    {
+      "cdr_id": "CDR1001",
+      "msisdn": "919876543210",
+      "cell_id": "CELL001",
+      "event_time": "2026-10-11 09:00:00",
+      "call_type": "Voice",
+      "call_status": "Completed",
+      "duration_seconds": 180,
+      "data_volume_mb": 0,
+      "latency_ms": 45,
+      "charge_amount": 10.0
+    },
+    {
+      "cdr_id": "CDR1007",
+      "msisdn": "919876543216",
+      "cell_id": "CELL004",
+      "event_time": "2026-10-11 09:25:00",
+      "call_type": "Voice",
+      "call_status": "Completed",
+      "duration_seconds": -30,
+      "data_volume_mb": 0,
+      "latency_ms": 40,
+      "charge_amount": 3.0
+    }
+  ]
