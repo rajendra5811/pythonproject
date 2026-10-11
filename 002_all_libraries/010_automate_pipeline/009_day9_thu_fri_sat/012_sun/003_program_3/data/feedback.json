@@ -1,0 +1,79 @@
+[
+    {
+      "feedback_id": "FB001",
+      "user_id": "USER001",
+      "session_id": "STREAM001",
+      "submitted_at": "2026-10-11 20:05:00",
+      "rating": 5,
+      "issue_type": "Video Quality",
+      "buffering_seconds": 0,
+      "latency_seconds": 3,
+      "comments": "Excellent video quality and smooth playback."
+    },
+    {
+      "feedback_id": "FB002",
+      "user_id": "USER002",
+      "session_id": "STREAM002",
+      "submitted_at": "2026-10-11 20:10:00",
+      "rating": 2,
+      "issue_type": "Buffering",
+      "buffering_seconds": 45,
+      "latency_seconds": 12,
+      "comments": "Video stopped frequently during the live stream."
+    },
+    {
+      "feedback_id": "FB003",
+      "user_id": "USER003",
+      "session_id": "STREAM003",
+      "submitted_at": "2026-10-11 20:15:00",
+      "rating": 3,
+      "issue_type": "Audio",
+      "buffering_seconds": 10,
+      "latency_seconds": 8,
+      "comments": "Audio was delayed compared with video."
+    },
+    {
+      "feedback_id": "FB004",
+      "user_id": "USER004",
+      "session_id": "STREAM004",
+      "submitted_at": "2026-10-11 20:20:00",
+      "rating": 1,
+      "issue_type": "UI",
+      "buffering_seconds": 0,
+      "latency_seconds": 5,
+      "comments": "The chat panel overlaps the video controls."
+    },
+    {
+      "feedback_id": "FB005",
+      "user_id": "USER005",
+      "session_id": "STREAM005",
+      "submitted_at": "invalid-date",
+      "rating": 4,
+      "issue_type": "Video Quality",
+      "buffering_seconds": 0,
+      "latency_seconds": 2,
+      "comments": "Good quality."
+    },
+    {
+      "feedback_id": "FB002",
+      "user_id": "USER002",
+      "session_id": "STREAM002",
+      "submitted_at": "2026-10-11 20:10:00",
+      "rating": 2,
+      "issue_type": "Buffering",
+      "buffering_seconds": 45,
+      "latency_seconds": 12,
+      "comments": "Video stopped frequently during the live stream."
+    },
+    {
+      "feedback_id": "FB006",
+      "user_id": "USER006",
+      "session_id": "STREAM006",
+      "submitted_at": "2026-10-11 20:25:00",
+      "rating": 9,
+      "issue_type": "Other",
+      "buffering_seconds": 0,
+      "latency_seconds": 4,
+      "comments": "Good stream."
+    }
+  ]
