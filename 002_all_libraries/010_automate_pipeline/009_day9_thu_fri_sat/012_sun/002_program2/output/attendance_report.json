@@ -1,0 +1,26 @@
+[
+    {
+        "student_id": "STU001",
+        "attendance_date": "2026-10-11",
+        "check_in_time": "2026-10-11 08:30:00",
+        "check_out_time": "2026-10-11 16:30:00",
+        "punch_count": 2,
+        "attendance_status": "Present"
+    },
+    {
+        "student_id": "STU002",
+        "attendance_date": "2026-10-11",
+        "check_in_time": "2026-10-11 08:35:00",
+        "check_out_time": null,
+        "punch_count": 1,
+        "attendance_status": "Present"
+    },
+    {
+        "student_id": "STU003",
+        "attendance_date": "2026-10-11",
+        "check_in_time": "2026-10-11 08:40:00",
+        "check_out_time": null,
+        "punch_count": 1,
+        "attendance_status": "Present"
+    }
+]

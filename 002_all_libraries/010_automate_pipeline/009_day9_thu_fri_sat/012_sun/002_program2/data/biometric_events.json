@@ -1,0 +1,44 @@
+[
+    {
+      "punch_id": "PUNCH001",
+      "student_id": "STU001",
+      "device_id": "BIO001",
+      "punch_time": "2026-10-11 08:30:00",
+      "punch_type": "IN"
+    },
+    {
+      "punch_id": "PUNCH002",
+      "student_id": "STU001",
+      "device_id": "BIO001",
+      "punch_time": "2026-10-11 16:30:00",
+      "punch_type": "OUT"
+    },
+    {
+      "punch_id": "PUNCH003",
+      "student_id": "STU002",
+      "device_id": "BIO002",
+      "punch_time": "2026-10-11 08:35:00",
+      "punch_type": "IN"
+    },
+    {
+      "punch_id": "PUNCH004",
+      "student_id": "STU003",
+      "device_id": "BIO003",
+      "punch_time": "2026-10-11 08:40:00",
+      "punch_type": "IN"
+    },
+    {
+      "punch_id": "PUNCH005",
+      "student_id": "STU003",
+      "device_id": "BIO003",
+      "punch_time": "invalid-date",
+      "punch_type": "OUT"
+    },
+    {
+      "punch_id": "PUNCH003",
+      "student_id": "STU002",
+      "device_id": "BIO002",
+      "punch_time": "2026-10-11 08:35:00",
+      "punch_type": "IN"
+    }
+  ]
