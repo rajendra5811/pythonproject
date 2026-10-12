@@ -1,0 +1,7 @@
+2026-10-12 19:09:30,735 [INFO] SpaceLaunchTelemetryPipeline: Mission telemetry secure vault verified via pathlib: C:\Users\lenovo\Music\nanodegree\002_all_libraries\011_end_to_end_pipeline\001_monday\003_program3\launch_telemetry_vault
+2026-10-12 19:09:30,774 [WARNING] SpaceLaunchTelemetryPipeline: Mission Control Alert: Dropped malformed Launch ID 'INVALID-LAUNCH-ID'
+2026-10-12 19:09:30,788 [INFO] SpaceLaunchTelemetryPipeline: Mission Status Summary (collections): {'NOMINAL_ORBITAL': 1, 'THERMAL_SHIELD_CRITICAL': 1}
+2026-10-12 19:09:30,808 [INFO] SpaceLaunchTelemetryPipeline: Average Re-Entry Velocity Recorded: 8.25 km/s
+C:\Users\lenovo\Music\nanodegree\002_all_libraries\011_end_to_end_pipeline\001_monday\003_program3\pipeline.py:117: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  recorded_at=datetime.utcnow().isoformat(),
+2026-10-12 19:09:30,968 [INFO] SpaceLaunchTelemetryPipeline: Successfully transmitted and persisted validated launch telemetry batch to Mission database.
