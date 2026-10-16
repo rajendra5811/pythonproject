@@ -4,3 +4,6 @@ typing
 pathlib
 datetime
 httpx
+sqlite3
+shutil
+

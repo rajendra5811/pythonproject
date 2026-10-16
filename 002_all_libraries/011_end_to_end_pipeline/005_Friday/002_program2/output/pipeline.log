@@ -1,0 +1,12 @@
+2026-10-16 18:19:08,856 [INFO] Processing file: charge_001.json
+2026-10-16 18:19:08,857 [ERROR] Error processing charge_001.json: 'list' object has no attribute 'get'
+2026-10-16 18:19:08,857 [INFO] Processing file: charge_002.json
+2026-10-16 18:19:08,858 [ERROR] Error processing charge_002.json: 'list' object has no attribute 'get'
+2026-10-16 18:19:08,858 [INFO] Processing file: charge_003.json
+2026-10-16 18:19:08,859 [ERROR] Error processing charge_003.json: 'list' object has no attribute 'get'
+2026-10-16 18:28:47,594 [INFO] Processing file: charge_001.json
+2026-10-16 18:28:47,601 [INFO] Successfully processed and moved charge_001.json
+2026-10-16 18:28:47,602 [INFO] Processing file: charge_002.json
+2026-10-16 18:28:47,605 [INFO] Successfully processed and moved charge_002.json
+2026-10-16 18:28:47,606 [INFO] Processing file: charge_003.json
+2026-10-16 18:28:47,609 [INFO] Successfully processed and moved charge_003.json
