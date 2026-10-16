@@ -1,0 +1,7 @@
+2026-10-16 12:48:27,059 - INFO - No hospital files found
+2026-10-16 13:08:15,162 - INFO - Processing HOSP-TS-001_2026-10-11.json
+2026-10-16 13:08:15,188 - INFO - Processed HOSP-TS-001_2026-10-11.json successfully
+2026-10-16 13:08:15,188 - INFO - Processing HOSP-TS-002_2026-10-11.json
+2026-10-16 13:08:15,190 - INFO - Processed HOSP-TS-002_2026-10-11.json successfully
+2026-10-16 13:08:15,191 - INFO - Processing HOSP-TS-003_2026-10-11.json
+2026-10-16 13:08:15,194 - WARNING - Rejected HOSP-TS-003_2026-10-11.json: Positive cases exceed tests conducted

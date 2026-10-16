@@ -1,0 +1,20 @@
+{
+    "report_id": "RPT20261011002",
+    "hospital_code": "HOSP-TS-002",
+    "report_date": "2026-10-11",
+    "state_code": "TS",
+    "district_code": "WAR",
+    "tests_conducted": 80,
+    "positive_cases": 10,
+    "recoveries": 15,
+    "deaths": 0,
+    "active_cases": 20,
+    "total_beds": 60,
+    "occupied_beds": 35,
+    "oxygen_beds": 20,
+    "oxygen_beds_occupied": 7,
+    "icu_beds": 10,
+    "icu_beds_occupied": 3,
+    "ventilators": 5,
+    "ventilators_in_use": 1
+  }

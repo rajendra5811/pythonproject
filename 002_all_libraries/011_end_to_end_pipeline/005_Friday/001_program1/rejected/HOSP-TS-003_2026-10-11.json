@@ -1,0 +1,20 @@
+{
+    "report_id": "RPT20261011003",
+    "hospital_code": "HOSP-TS-003",
+    "report_date": "2026-10-11",
+    "state_code": "TS",
+    "district_code": "NLG",
+    "tests_conducted": 50,
+    "positive_cases": 60,
+    "recoveries": 8,
+    "deaths": 0,
+    "active_cases": 10,
+    "total_beds": 40,
+    "occupied_beds": 20,
+    "oxygen_beds": 10,
+    "oxygen_beds_occupied": 4,
+    "icu_beds": 5,
+    "icu_beds_occupied": 2,
+    "ventilators": 3,
+    "ventilators_in_use": 1
+  }
