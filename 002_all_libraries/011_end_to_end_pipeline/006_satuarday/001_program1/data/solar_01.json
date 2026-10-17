@@ -1,0 +1,20 @@
+[
+    {
+        "plant_id": "PLANT-101",
+        "city": " Hyderabad ",
+        "timestamp": "2026-10-17 09:00:00",
+        "generated_kwh": 500,
+        "consumed_kwh": 350,
+        "battery_kwh": 100,
+        "temperature": 31
+    },
+    {
+        "plant_id": "PLANT-102",
+        "city": "HYDERABAD",
+        "timestamp": "2026-10-17 09:00:00",
+        "generated_kwh": 700,
+        "consumed_kwh": 500,
+        "battery_kwh": 120,
+        "temperature": 33
+    }
+]
