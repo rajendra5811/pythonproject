@@ -1,0 +1,33 @@
+{
+    "metrics": {
+        "total_generated_kwh": 0,
+        "total_consumed_kwh": 0,
+        "utilization_percent": 0
+    },
+    "plant_summary": {},
+    "city_summary": {
+        "record_count": {},
+        "generation_kwh": {}
+    },
+    "generated_total": 0,
+    "city_groups": {},
+    "weather": {
+        "latitude": 17.398945,
+        "longitude": 78.457085,
+        "generationtime_ms": 8.01551342010498,
+        "utc_offset_seconds": 0,
+        "timezone": "GMT",
+        "timezone_abbreviation": "GMT",
+        "elevation": 505.0,
+        "current_units": {
+            "time": "iso8601",
+            "interval": "seconds",
+            "temperature_2m": "\u00b0C"
+        },
+        "current": {
+            "time": "2026-10-17T07:00",
+            "interval": 900,
+            "temperature_2m": 33.3
+        }
+    }
+}
