@@ -1,0 +1,54 @@
+{
+    "pipeline_version": "",
+    "processed_records": 6,
+    "students": {
+        "STU001": {
+            "attended": 1.0,
+            "total": 1,
+            "percentage": 100.0
+        },
+        "STU002": {
+            "attended": 0.0,
+            "total": 1,
+            "percentage": 0.0
+        },
+        "STU003": {
+            "attended": 1.0,
+            "total": 1,
+            "percentage": 100.0
+        },
+        "STU004": {
+            "attended": 1.0,
+            "total": 1,
+            "percentage": 100.0
+        },
+        "STU005": {
+            "attended": 0.0,
+            "total": 1,
+            "percentage": 0.0
+        },
+        "STU006": {
+            "attended": 1.0,
+            "total": 1,
+            "percentage": 100.0
+        }
+    },
+    "classes": {
+        "10-A": {
+            "present": 2,
+            "absent": 2
+        },
+        "10-B": {
+            "present": 2
+        }
+    },
+    "groups": {
+        "10-A": 4,
+        "10-B": 2
+    },
+    "minimum_policy": {
+        "10-A": 75.0,
+        "10-B": 75.0
+    },
+    "holidays": []
+}

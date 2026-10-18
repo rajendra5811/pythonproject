@@ -1,0 +1,23 @@
+[
+    {
+        "student_id": "STU004",
+        "student_name": " v Raj Kumar ",
+        "class_name": "10-A",
+        "date": "2026-10-15",
+        "status": "present"
+    },
+    {
+        "student_id": "STU005",
+        "student_name": "dr.Alice",
+        "class_name": "10-A",
+        "date": "2026-10-15",
+        "status": "absent"
+    },
+    {
+        "student_id": "STU006",
+        "student_name": "mr.Bob",
+        "class_name": "10-B",
+        "date": "2026-10-15",
+        "status": "present"
+    }
+]
