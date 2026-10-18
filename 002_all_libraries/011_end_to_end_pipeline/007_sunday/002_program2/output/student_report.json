@@ -1,0 +1,14 @@
+{
+    "STU001": {
+        "attendance": 100,
+        "average_marks": 82.0
+    },
+    "STU002": {
+        "attendance": 0,
+        "average_marks": 91.0
+    },
+    "STU003": {
+        "attendance": 100,
+        "average_marks": 64.0
+    }
+}

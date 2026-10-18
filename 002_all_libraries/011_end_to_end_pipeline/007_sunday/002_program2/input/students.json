@@ -1,0 +1,34 @@
+[
+    {
+        "student_id": "STU001",
+        "name": " Raj Kumar ",
+        "class_name": "10-A",
+        "date": "2026-10-18",
+        "status": "present",
+        "marks": 82
+    },
+    {
+        "student_id": "STU002",
+        "name": "Alice",
+        "class_name": "10-A",
+        "date": "2026-10-18",
+        "status": "absent",
+        "marks": 91
+    },
+    {
+        "student_id": "STU003",
+        "name": " Bob ",
+        "class_name": "10-B",
+        "date": "2026-10-18",
+        "status": "present",
+        "marks": 64
+    },
+    {
+        "student_id": "BAD",
+        "name": "John",
+        "class_name": "10-B",
+        "date": "2026-10-18",
+        "status": "present",
+        "marks": 75
+    }
+]
