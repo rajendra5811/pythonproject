@@ -1,8 +1,0 @@
-[
-    {"record_id": "REC001", "category": "sales", "value": 120.5, "status": "ACTIVE"},
-    {"record_id": "REC002", "category": "sales", "value": 80, "status": "ACTIVE"},
-    {"record_id": "REC003", "category": "returns", "value": 30.25, "status": "INACTIVE"},
-    {"record_id": "REC004", "category": "sales", "value": -10, "status": "ACTIVE"},
-    {"record_id": "REC001", "category": "sales", "value": 120.5, "status": "ACTIVE"},
-    {"record_id": "REC005", "category": "returns", "value": 15, "status": "PENDING"}
-  ]

@@ -1,6 +1,0 @@
-sqlalchemy
-boto3
-typing
-pathlib
-datetime
-httpx
