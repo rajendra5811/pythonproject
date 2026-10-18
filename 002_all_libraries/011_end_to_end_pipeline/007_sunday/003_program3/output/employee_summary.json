@@ -1,0 +1,45 @@
+{
+    "generated_at": "2026-10-18T22:00:59",
+    "input_count": 7,
+    "valid_count": 5,
+    "loaded_count": 5,
+    "rejected_count": 2,
+    "department_summary": {
+        "ENGINEERING": {
+            "employee_count": 3,
+            "total_salary": 202000.0,
+            "average_salary": 67333.33,
+            "highest_salary": 72000.0
+        },
+        "FINANCE": {
+            "employee_count": 1,
+            "total_salary": 58000.0,
+            "average_salary": 58000.0,
+            "highest_salary": 58000.0
+        },
+        "HR": {
+            "employee_count": 1,
+            "total_salary": 45000.0,
+            "average_salary": 45000.0,
+            "highest_salary": 45000.0
+        }
+    },
+    "status_summary": {
+        "ACTIVE": 4,
+        "ON_LEAVE": 1
+    },
+    "rejection_reasons": {
+        "Salary must be a positive number": 1,
+        "Invalid status": 1
+    },
+    "rejected_records": [
+        {
+            "employee_id": "EMP005",
+            "error": "Salary must be a positive number"
+        },
+        {
+            "employee_id": "EMP006",
+            "error": "Invalid status"
+        }
+    ]
+}

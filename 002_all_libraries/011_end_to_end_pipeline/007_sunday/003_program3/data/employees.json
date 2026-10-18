@@ -1,0 +1,9 @@
+[
+    {"employee_id": "EMP001", "name": "rajendra veerelli", "department": "engineering", "salary": 65000, "status": "ACTIVE"},
+    {"employee_id": "EMP002", "name": "anita rao", "department": "finance", "salary": 58000, "status": "ACTIVE"},
+    {"employee_id": "EMP003", "name": "ravi kumar", "department": "engineering", "salary": 72000, "status": "ON_LEAVE"},
+    {"employee_id": "EMP004", "name": "meena devi", "department": "hr", "salary": 45000, "status": "ACTIVE"},
+    {"employee_id": "EMP005", "name": "kiran", "department": "finance", "salary": -5000, "status": "ACTIVE"},
+    {"employee_id": "EMP001", "name": "Rajendra Veerelli", "department": "Engineering", "salary": 65000, "status": "ACTIVE"},
+    {"employee_id": "EMP006", "name": "sneha reddy", "department": "hr", "salary": 50000, "status": "RESIGNED"}
+  ]
