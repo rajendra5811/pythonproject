@@ -1,0 +1,29 @@
+[
+    {
+        "turbine_id": "WT001",
+        "farm": " HYD WIND ",
+        "timestamp": "2026-10-24T08:00:00",
+        "wind_speed": 12.5,
+        "generated_kwh": 820,
+        "capacity_kw": 1000,
+        "status": "running"
+    },
+    {
+        "turbine_id": "WT002",
+        "farm": "HYD WIND",
+        "timestamp": "2026-10-24T08:00:00",
+        "wind_speed": 10.2,
+        "generated_kwh": 700,
+        "capacity_kw": 1000,
+        "status": "running"
+    },
+    {
+        "turbine_id": "BAD01",
+        "farm": "HYD WIND",
+        "timestamp": "2026-10-24T08:00:00",
+        "wind_speed": -5,
+        "generated_kwh": 500,
+        "capacity_kw": 1000,
+        "status": "running"
+    }
+]

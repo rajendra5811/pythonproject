@@ -1,0 +1,18 @@
+{
+    "WT001": {
+        "farm": "HYD WIND",
+        "generated_kwh": 820,
+        "utilization_percent": 82.0,
+        "utilization_category": "excellent",
+        "average_wind_speed": 12.5,
+        "processed_at": "2026-10-24T20:54:14.745159"
+    },
+    "WT002": {
+        "farm": "HYD WIND",
+        "generated_kwh": 700,
+        "utilization_percent": 70.0,
+        "utilization_category": "good",
+        "average_wind_speed": 10.2,
+        "processed_at": "2026-10-24T20:54:14.745213"
+    }
+}
