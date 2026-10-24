@@ -1,0 +1,14 @@
+{
+    "WT001": {
+        "farm": "HYD WIND",
+        "wind_speed": 12.5,
+        "generated_kwh": 820,
+        "utilization": 82
+    },
+    "WT002": {
+        "farm": "HYD WIND",
+        "wind_speed": 10.2,
+        "generated_kwh": 700,
+        "utilization": 70
+    }
+}
