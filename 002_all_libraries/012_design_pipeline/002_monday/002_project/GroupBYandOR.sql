@@ -1,0 +1,44 @@
+-- 15 UPDATE phone AS 1000000 FOR RAVI
+UPDATE EMP1 SET phone = 1000000
+WHERE name ='RAVI' AND phone is null
+
+-- 16. AND, OR, NOT IN SQL
+
+--AND -IF WE HAVE 2 CONDITION THEN BOTH CONDITION IF ITS MATCHING THEN WE WILL GET RESULT
+--OR/IN-IF WE HAVE 2 CONDITION AND IF ANY OF THE CONDITION SATISFY THEN WE WILL GET RESULT
+--NOT --IF CONDITION WE ARE CHECKING WITH NOT CLAUSE
+
+-- GIVE EMPLOYEE DETAILS WHO ARE FROM INDIA OR ALSO AGE IS 20
+SELECT * FROM EMP3 WHERE COUNTRY = 'INDIA' AND AGE = 20
+
+-- GIVE EMPLOYEE TABLE WHERE NAME = 'RAVI' OR EMAIL = 'ABC@EMAIL.COM
+SELECT * FROM EMP1 WHERE NAME = 'RAVI' OR EMAIL = 'ABC@EMAIL.COM'
+
+--GIVE THE EMPLOYEE DETAILS WHERE ID IS (1,2)
+SELECT * FROM EMP1 WHERE ID NOT IN (1, 2)
+
+-- 17. AGGREGATE IN SQL
+SELECT * FROM EMP1
+
+-- 18 HOW TO FIND MAXIMUM AND MINIMUM SALARY OF EMPLOYEE FROM EMP TABLE
+SELECT MAX(salary), MIN(SALARY) FROM EMP 
+
+--19 TOTAL SALARY OF EMPLOYEE
+SELECT SUM(salary) FROM EMP
+
+--20 find the total no.of employee we have
+SELECT count(salary) FROM EMP
+
+--21 find avg salary of employee
+SELECT avg(salary) FROM EMP
+
+--group by in sql
+-- we use the GROUP BY clause to group rows based on the value of columns
+-- find no.of customers in each country
+
+
+-- 22. find the no.of employee present in each country 
+
+-- 23. find the highest salary employee from each loca
+
+
