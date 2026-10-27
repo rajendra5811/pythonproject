@@ -1,0 +1,14 @@
+Joining
+
+what is a join in sql?
+The JOIN clause is used to combine two or more tables based on a common column between them.
+This helps retrieve related data efficiently.
+
+--TYPES of sql JOINS
+
+--1. INNER JOIN: Returns only matching rows from both tables.
+--2. LEFT JOIN: Returns all rows from the left table
+and the matching rows from the right table.
+--3. Right Join: Returns all rows from the right table and the matching rows from the left table.
+
+--4. Full OUTER Join: Returns all rows when there is a match in either table, with Null for non-matching rows.
